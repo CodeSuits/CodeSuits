@@ -1,0 +1,75 @@
+name: 奔跑的蜗牛
+title: 奔跑的蜗牛那点破事
+description: 单纯如若初见 不落之于情怀
+url: http://www.emsuits.com
+paginate: 10 # pagination based on number of posts
+# 目录结构
+#source:      .
+#destination: ./_site
+#plugins:     ./_plugins
+#layouts:     ./_layouts
+#data_source: ./_data
+#collections: null
+
+# 阅读处理
+#safe:         false
+include:      ["_static"]
+exclude:      ["README.md"]
+#keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "md"
+
+# 内容过滤
+#show_drafts: null
+#limit_posts: 0
+#future:      true
+#unpublished: false
+
+# 插件
+#whitelist: []
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+
+# 转换
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+# excerpt_separator: "=========="
+
+# 服务器选项
+#detach:  false
+#port:    4000
+#host:    127.0.0.1
+#baseurl: "" # does not include hostname
+
+# 输出
+permalink:     "/blog/:year-:month-:day-:title"
+paginate_path: "/page/:num"
+#timezone:      null
+
+#quiet:    false
+#defaults: []
+
+# Markdown 处理器
+kramdown:
+  #auto_ids:       true
+  #footnote_nr:    1
+  #entity_output:  as_char
+  #toc_levels:     1..6
+  #smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  #enable_coderay: false
+  input: GFM
+  #hard_wrap: false
+
+  #coderay:
+    #coderay_wrap:              div
+    #coderay_line_numbers:      inline
+    #coderay_line_number_start: 1
+    #coderay_tab_width:         4
+    #coderay_bold_every:        10
+    #coderay_css:               style  
+
+sass:
+    sass_dir: resources/css
+    style: compressed
