@@ -2,10 +2,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta http-equiv="Content-Language" content="zh-CN" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <meta name="renderer" content="webkit">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="Cache-Control" content="no-transform" />
+        <meta http-equiv="Cache-Control" content="no-siteapp" />
         <title>{% if page.title == 'home' %} {{ site.name }} - {{site.sub_name}}  {% else %} {{ page.title }} - {{ site.name }} {% endif %}</title>
         {% if page.title == 'home' %}  
         <meta name="description" content="{{ site.description }}" />
@@ -15,7 +13,8 @@
         <meta name="keywords" content="{{ page.keywords }}" />
         {% endif %}
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
+        <!-- 禁止浏览器初始缩放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
         </style>
     </head>
 
