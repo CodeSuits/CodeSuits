@@ -1,5 +1,7 @@
 name: 技术宅
-description: 专注分享，专注技术！
+sub_name: 专注分享，专注技术！
+description: 技术宅，专注分享，专注技术！邵志伟个人博客。分享互联网科技新闻轶事，分享生活小常识，各种数码使用小技巧！
+keywords :邵志伟,邵志伟是谁,邵志伟博客,技术宅,分享,技术,教程
 url: http://www.emsuits.com
 paginate: 10 # pagination based on number of posts
 # 目录结构
