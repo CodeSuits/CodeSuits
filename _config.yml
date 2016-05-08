@@ -44,7 +44,7 @@ lsi:         false
 #baseurl: "" # does not include hostname
 
 # 输出
-permalink:     "/blog/:year-:month-:day-:title"
+permalink:     "/:year-:month-:day-:title.html"
 paginate_path: "/page/:num"
 #timezone:      null
 
