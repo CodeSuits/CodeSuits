@@ -33,7 +33,7 @@
 			<div class="clear"></div>
 		</div>
 		<div class="floatbtn">
-			<span class="randompost mobile-hide" title="试试手气"><a href="https://www.0513c.com/random,html" rel="nofollow"><i class="fa fa-refresh"></i></a></span>
+			<span class="randompost mobile-hide" title="试试手气"><a href="{{ site.url }}/random,html" rel="nofollow"><i class="fa fa-refresh"></i></a></span>
 			<span id="qr" class="mobile-hide">
 				<i class="fa fa-qrcode"></i>
 				<div id="floatbtn-qr">
@@ -42,10 +42,11 @@
 				</div> 
 			</span>
 			<span id="zh-cn-tw" class="mobile-hide"><i><a id="StranLink" href="javascript:StranBody()">繁</a></i></span>
-			<span id="layoutswt" class="mobile-hide"> <i class="fa fa-th is_blog" src="https://www.0513c.com"></i> </span>
+			<span id="layoutswt" class="mobile-hide"> <i class="fa fa-th is_blog" src="{{ site.url }}"></i> </span>
 			<span id="back-to-top"><i class="fa fa-arrow-up"></i></span>
 		</div>
-		<script type="text/javascript" src="https://res.0513c.com/wp-content/themes/tinection/includes/js/theme.min.js"></script>
+		<script type="text/javascript">var defaultEncoding = 0; var translateDelay = 100; var cookieDomain = "{{ site.url }}";</script>
+		<script type="text/javascript" src="{{ site.url }}/tinection/includes/js/theme.min.js"></script>
 		<script type="text/javascript">$('.site_loading').animate({'width':'100%'},50);  //第五个节点</script>
 		<script>
 			//disable right click
@@ -114,8 +115,8 @@
 			  		fuckyou();
 			}
 		</script>
-		<script type="text/javascript" src="https://res.0513c.com/wp-content/themes/tinection/includes/js/html.js"></script>
-		<script type="text/javascript" src="https://res.0513c.com/wp-content/themes/tinection/includes/js/headroom.min.js"></script>
+		<script type="text/javascript" src="{{ site.url }}/tinection/includes/js/html.js"></script>
+		<script type="text/javascript" src="{{ site.url }}/tinection/includes/js/headroom.min.js"></script>
 		<script>
 			(function() { new Headroom(document.querySelector("#nav-scroll"), { offset : 5, tolerance: 5, classes: { initial: "animated", pinned: "slideUp", unpinned: "slideDown" } }).init(); }());
 		</script>
