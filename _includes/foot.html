@@ -45,6 +45,47 @@
 			<span id="layoutswt" class="mobile-hide"> <i class="fa fa-th is_blog" src="https://www.0513c.com"></i> </span>
 			<span id="back-to-top"><i class="fa fa-arrow-up"></i></span>
 		</div>
+		<script type="text/javascript" src="https://res.0513c.com/wp-content/themes/tinection/includes/js/theme.min.js"></script>
+		<script type="text/javascript">$('.site_loading').animate({'width':'100%'},50);  //第五个节点</script>
+		<script>
+			//disable right click
+			function md(e) 
+
+			{ 
+
+			  try { if (event.button==2||event.button==3) return false; }  
+
+			  catch (e) { if (e.which == 3) return false; } 
+
+			}
+
+			document.oncontextmenu = function() { return false; }
+
+			document.ondragstart   = function() { return false; }
+
+			document.onmousedown   = md;
+		</script>
+		<script type="text/javascript">
+			disable_copy(document.body);
+
+			document.body.onkeypress = disableEnterKey; //this disable Ctrl+A select action for firefox specially
+
+			//chrome + mac
+
+			$(document).keydown(function(event) {
+
+			if(event.which == 17) return false; //chrome ctrl key
+
+			if(event.which == 157) return false; //mac command key
+
+			if(event.ctrlKey) return false; //random
+
+			//event.preventDefault();
+
+			//return false;
+
+			});
+		</script>
 		<script>
 			function fuckyou(){
 			    window.close(); //关闭当前窗口(防抽)
