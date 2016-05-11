@@ -978,7 +978,7 @@ input::-ms-clear{display: none;}
 #footer-widgets .widget > h3,#footer-widgets .widget > h3 a,#footer-widgets .widget > h3 a:hover {text-decoration: none;}
 .widget > h3 a img { display: none; float: left; margin: 3px 7px 0 0; }
 .widget select { border: 1px solid #ddd; color: #666; font-size: 15px;padding: 7px; width: 100%; max-width: 100%; }
-#footer-widgets .widget > h3,#footer-widgets .widget > h3 span {color: #bbb;font-size: 14px;font-weight:normal;}
+#footer-widgets .widget > h3,#footer-widgets .widget > h3 span {color: #bbb;font-size: 14px;}
 .widget > ul li a {text-decoration: none;}
 
 /*  widgets : icons
