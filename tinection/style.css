@@ -909,7 +909,7 @@ a#al_expand_collapse:after{content: "";}
 #footer-nav-wrap { position:relative; width:100%; left:0; bottom:0;  background:#2e2e2e;border-top: 1px solid rgba(255,255,255,0.08);}
 #footer-nav-links {position: relative; float: left; font-size: 14px;}
 #footer-nav-links li { float:left; margin-right:10px; line-height: 16px;}
-#footer-nav-links a {color:#777; text-decoration: none;-webkit-transition: color .2s linear;-moz-transition: color .2s linear;-ms-transition: color .2s linear;-o-transition:  color .2s linear;transition: color .2s linear;}
+#footer-nav-links a {color:#ccc; text-decoration: none;-webkit-transition: color .2s linear;-moz-transition: color .2s linear;-ms-transition: color .2s linear;-o-transition:  color .2s linear;transition: color .2s linear;}
 #footer-nav-links a:hover ,#footer-copyright a:hover {border-bottom:1px dotted #f5f5f5; color:#f5f5f5;}
 #footer-copyright {margin-top:4px; font-size:12px;color:#ccc; line-height: 16px; padding: 2px 0;}
 #footer-copyright::selection,#footer-copyright a::selection {color:#fff;}
