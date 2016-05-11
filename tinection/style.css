@@ -966,7 +966,7 @@ input::-ms-clear{display: none;}
 .widget { color: #777; font-size: 14px;font-weight: 400; overflow: hidden; padding: 10px; }
 .widget a {font-size: 14px;}
 .widget-text iframe{width: 100% !important;}
-#footer .widget,#footer .widget a{color:#666;font-size:14px;-moz-transition: ease-in-out 0.5s;-webkit-transition: ease-in-out 0.5s;-o-transition: ease-in-out 0.5s;
+#footer .widget,#footer .widget a{color:#888;font-size:14px;-moz-transition: ease-in-out 0.5s;-webkit-transition: ease-in-out 0.5s;-o-transition: ease-in-out 0.5s;
   -ms-transition: ease-in-out 0.5s;transition: ease-in-out 0.5s;}
 #footer .widget a:hover { color: #fff; }
 .widget > h3 { font-size: 16px;font-weight: 600; text-transform: uppercase; margin-bottom: 6px; padding:5px 10px}
