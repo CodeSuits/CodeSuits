@@ -922,8 +922,8 @@ a#al_expand_collapse:after{content: "";}
 .footer-widgets-one-fourth {width:25%; float: left;}
 #footer-links-icons {height: 45px; float: right;}
 #footer-links-icons span:first-child {margin-left: 0;}
-#footer-links-icons span {display: inline-block; color: #777; font-size: 20px;margin-left: 25px;}
-#footer-links-icons span a {display: block; color: #777; text-align: center; font-weight: 500; font-size: 12px;}
+#footer-links-icons span {display: inline-block; color: #ccc; font-size: 20px;margin-left: 25px;}
+#footer-links-icons span a {display: block; color: #ccc; text-align: center; font-weight: 500; font-size: 12px;}
 #footer-links-icons span a:hover span, #footer-links-icons span a:hover{color: #A17820; -webkit-transition: all .5s ease;-moz-transition: all .5s ease;-ms-transition: all .5s ease;-o-transition:  all .5s ease;transition: all .5s ease;}
 .tinicon-qiniu{width: 26px;height: 20px;background: url(images/qiniu.png);transition:none !important;-webkit-transition:0;-moz-transition:0;}
 .footer-qiniu-link:hover .tinicon-qiniu{background: url(images/qiniu.png) 0 -20px;}
