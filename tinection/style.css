@@ -911,7 +911,7 @@ a#al_expand_collapse:after{content: "";}
 #footer-nav-links li { float:left; margin-right:10px; line-height: 16px;}
 #footer-nav-links a {color:#777; text-decoration: none;-webkit-transition: color .2s linear;-moz-transition: color .2s linear;-ms-transition: color .2s linear;-o-transition:  color .2s linear;transition: color .2s linear;}
 #footer-nav-links a:hover ,#footer-copyright a:hover {border-bottom:1px dotted #f5f5f5; color:#f5f5f5;}
-#footer-copyright {margin-top:4px; font-size:12px;color:#777; line-height: 16px; padding: 2px 0;}
+#footer-copyright {margin-top:4px; font-size:12px;color:#ccc; line-height: 16px; padding: 2px 0;}
 #footer-copyright::selection,#footer-copyright a::selection {color:#fff;}
 #footer::selection {background: gray;color: white;text-shadow: none;}
 #footer-copyright a {color:#ccc; text-decoration:none;}
