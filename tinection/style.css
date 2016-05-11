@@ -1216,7 +1216,7 @@ ul.no-pic li .tab-item-title a{font-size:14px;}
 /*  widget : singlerow
 /* ------------------------------------ */
 #ft-wg-sr {padding:20px 0;}
-#ft-wg-sr ul li {width:20%;overflow:hidden; float:left;}
+#ft-wg-sr ul li {width:10%;overflow:hidden;float:left;min-height:1px;background:rgba(255,255,255,.46);text-align:center;padding:5px;display:block;white-space:nowrap;word-wrap:normal;text-overflow:ellipsis;border:1px solid #ddd;border-radius:2px;transition-duration:.5s;box-shadow:0 1px 1px rgba(0,0,0,0);}
 #ft-wg-sr ul li .post-item-thumbnail {}
 #ft-wg-sr ul li .post-item-thumbnail:hover {opacity:0.6;filter: alpha(opacity=60);}
 #ft-wg-sr ul li .post-item-thumbnail img{margin:auto 0;}
