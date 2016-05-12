@@ -1848,6 +1848,8 @@ pre.code textarea:focus {border: none;box-shadow: none;}
 .media-frame input[type=search]{line-height: 100%;}
 .media-menu .separator{width: auto;}
 
+.l_g{float:left;width:50%;height:7px;background:#0fca93}
+
 /* CSS3 Animate
 /* ---------------- */
 @keyframes heartbomb{
