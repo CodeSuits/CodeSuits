@@ -223,7 +223,7 @@ body.home .two-col-container{margin-top: 10px;}
 .pagewrapper{background-color: #fff;position: relative;border: 1px solid #eaeaea;margin-top:10px;}
 
  /* Slider */
-#home-featured {background: #f5f5f5; padding:0; margin-bottom: 10px;overflow: hidden;/*background: url(images/slider/slider-bg.jpg) no-repeat center top;*/border-bottom: 1px inset rgba(0,0,0,.05);display: block;}
+#home-featured {background: #f5f5f5; padding:0; margin-bottom: 10px;overflow: hidden;border-bottom: 1px inset rgba(0,0,0,.05);display: block;}
 .home-featured-title{position:relative}
 .home-featured-meta {margin-top: 20px; font-size:100%;}
 .home-featured-links {margin-top: 20px;}
