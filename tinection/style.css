@@ -256,7 +256,7 @@ body.home .two-col-container{margin-top: 10px;}
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover{opacity:1;filter:alpha(opacity=50);}
 .flex-control-nav{width:100%;position:absolute;bottom:3px;text-align:center;z-index: 2;}
 .flex-control-nav li{margin:0 5px;display:inline-block;zoom:1;*display:inline;}
-.flex-control-paging li a{background:url(images/slider/dot.png) no-repeat 0 -16px;display:block;height:16px;overflow:hidden;text-indent:-99em;width:16px;cursor:pointer;transition: 0;}
+.flex-control-paging li a{background:url(images/slider/dot.png) no-repeat 0 -16px;display:block;height:16px;overflow:hidden;text-indent:-99em;width:16px;cursor:pointer;transition: 0;-webkit-transform: scale(.5);transform: scale(.5);}
 .flexslider-nar .flex-control-paging li a{background-position:0 -56px;}
 .flex-control-paging li a.flex-active{background-position:0 0;}
 .flexslider-nar .flex-control-paging li a.flex-active{background-position:0 -32px;}
@@ -1093,10 +1093,10 @@ text-align: center;border-radius:3px;}
 .list-right{width:49.5%;float:right;clear:right;padding-left:5px;}
 .list-single-col{width:100%;clear:both;}
 .widget_tinbookmarkh h3{margin-bottom:20px !important;}
-.widget_tinbookmarkh span a{position:absolute;right:10px;color:#333;font-weight:normal;}
-.widget_tinbookmarkh span a:hover{text-decoration:underline;}
+.widget_tinbookmarkh span a{position:absolute;right:10px;color:#333;font-weight:400;}
+.widget_tinbookmarkh span a:hover{text-decoration:underline;color:#51aded;}
 .widget_tinbookmarkh ul li a{color:#333;line-height:30px;}
-.widget_tinbookmarkh ul li a:hover{text-decoration:underline;}
+.widget_tinbookmarkh ul li a:hover{color:#51aded;padding-left:3px}
 
 /* widget : subscribe
 /* -------------------- */
@@ -1848,6 +1848,11 @@ pre.code textarea:focus {border: none;box-shadow: none;}
 .media-frame input[type=search]{line-height: 100%;}
 .media-menu .separator{width: auto;}
 
+.foot_line{position:relative;overflow:hidden;height:7px;background:#fd9536}
+.line_o{position:relative;top:0;left:-50%;height:7px;background:#ff4839}
+.line_gw{position:absolute;top:0;left:50%;z-index:1;margin-left:-600px;width:1200px;height:7px}
+.l_g{float:left;width:50%;height:7px;background:#0fca93}
+.l_w{float:right;width:50%;height:7px;background:#ffdc35}
 /* CSS3 Animate
 /* ---------------- */
 @keyframes heartbomb{
