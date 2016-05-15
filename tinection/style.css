@@ -185,7 +185,7 @@ input.focus-email-submit{width:100%;height:30px;background:#00b5a9;color:#fff;bo
 .pri-nav ul ul li {border-bottom: 1px solid #eee;}
 .pri-nav ul ul li:hover {background: #f3f3f3;}
 .logo a img, #focus-us, #focus-us:before, #login-reg, .search-btn-click, .pri-nav .menu-item-has-children > a:after, .pri-nav .page_item_has_children > a:after {transition: all 0.4s;  -webkit-transition: all 0.4s;}
-/*.pri-nav ul li a,.pri-nav ul ul li a{-webkit-transition: all .4s ease-out;-moz-transition: all .4s ease-out;-o-transition: all .4s ease-out;}*/
+.pri-nav ul li a,.pri-nav ul ul li a{-webkit-transition: all .4s ease-out;-moz-transition: all .4s ease-out;-o-transition: all .4s ease-out;}
 .pri-nav li > a {color: #777;font-size:16px;}
 .pri-nav li:hover > a,.pri-nav li.focus > a {color: #fff;}
 .pri-nav .menu-item-has-children > a,.pri-nav .page_item_has_children > a {padding-right: 22px;}
