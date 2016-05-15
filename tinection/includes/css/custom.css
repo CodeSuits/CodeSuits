@@ -1,7 +1,7 @@
 ::-webkit-scrollbar-thumb,.nicescroll-rails div{background-color:#00d6ac !important;}
 ::selection{background:#51aded;color:#fff}
 body,.cms-bar .col-right.s4 .col-small p:before{color:#666666}
-body a,.bg-sitenews i.fa-volume-up,.tab-item-comment i,.tab-item-comment i:before,.catlist_1_of_2 .home-heading a,.widget_tinsitestatistic ul li span,.comment-login-pop-click,.comment-info span.cmt-vote i.voted{color:#428bca}
+body a,.bg-sitenews i.fa-volume-up,.tab-item-comment i,.tab-item-comment i:before,.catlist_1_of_2 .home-heading a,.widget_tinsitestatistic ul li span,.comment-login-pop-click,.comment-info span.cmt-vote i.voted{color:#777777}
 .tin-tabs-nav li.active a{border-bottom-color:#428bca}
 .home-heading a,#sidebar #submit-mail:hover{background: #428bca}
 body a:hover{color:#51aded}
