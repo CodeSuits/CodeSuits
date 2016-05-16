@@ -135,20 +135,6 @@ title: home
 						</div>
 						<div class="meta"> <span class="date">3周前 (04-22)</span> <span class="views">浏览: 181</span> <span class="comments">评论关闭</span></div>
 					</article>
-					<article class="clr col-small">
-						<div class="inner"> 
-							<a href="https://www.0513c.com/wordpress-using-ali-cloud-osscdn-to-achieve-attachment-ssl-access.html" title="WordPress使用阿里云OSS+CDN并实现附件ssl访问" class="fancyimg home-blog-entry-thumb">
-								<div class="thumb-img"> 
-									<img class="box-hide box-show" src="https://reg.0513c.com/uploads/2016/03/2016-03-2769.jpg" _w ="100" data-original="https://reg.0513c.com/uploads/2016/03/2016-03-2769.jpg" alt="WordPress使用阿里云OSS+CDN并实现附件ssl访问" style="display: block;"> <span><i class="fa fa-star"></i></span>
-								</div> 
-							</a>
-							<h3>
-								<a href="https://www.0513c.com/wordpress-using-ali-cloud-osscdn-to-achieve-attachment-ssl-access.html" title="WordPress使用阿里云OSS+CDN并实现附件ssl访问" target="_blank">WordPress使用阿里云OSS+CDN并实现附件ssl访问</a>
-							</h3>
-							<p> 文章目录 购买OOS+CDN组合套餐 创建bucke 创建AccessKeys CDN配置 wordpress整合OSS 设置OSS插件 首先呢，声明一下，此教程是基于博主在亲测阿里云OSS+CDN的情况下所写，某些方面会和之前出现的种种教程有重复，这个我不管了。 此教程的亮点在于：Wordpress附件使用阿里云OSS，并使附件通过阿里云CDN访问，附件访问支持SSL! 购买OOS+CDN组合套餐 博主穷，买的是33的套餐感觉应该够用了，只是流量包有点够呛！具体的购买地址大家自己找！ 创建bucke 这一步很重要，记得要按照图片的操作来创建bucke！ 创建的过程中，记得要填写附件访问的二级</p>
-						</div>
-						<div class="meta"> <span class="date">2个月前 (03-27)</span> <span class="views">浏览: 120605</span> <span class="comments">评论关闭</span></div>
-					</article>
 				</div>
 			</section>
 			-->
@@ -165,28 +151,30 @@ title: home
 					<script>
 					(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
+				{% for post in paginator.posts %}
 				<article class="home-blog-entry col span_1 clr"> 
-					<a href="https://www.0513c.com/captain-america-3.html" title="美国队长3迅雷免费下载" class="fancyimg home-blog-entry-thumb">
+					<a href="{{ post.url }}" title="{{ post.title }}" class="fancyimg home-blog-entry-thumb">
 						<div class="thumb-img"> 
-							<img class="box-hide box-show" src="https://www.0513c.com/wp-content/themes/tinection/functions/timthumb.php?src=https://reg.0513c.com/uploads/2016/05/2016-05-143.jpg&q=90&w=375&h=250&zc=1" data-original="https://www.0513c.com/wp-content/themes/tinection/functions/timthumb.php?src=https://reg.0513c.com/uploads/2016/05/2016-05-143.jpg&q=90&w=375&h=250&zc=1" alt="美国队长3迅雷免费下载" style="display: block;"> <span><i class="fa fa-expand"></i></span>
+							<img class="box-hide box-show" width = "375px" height="250px" src="{{ post.img}}" alt="{{ post.title }}" style="display: block;"> 
+							<span><i class="fa fa-expand"></i></span>
 						</div> 
 					</a>
 					<div class="home-blog-entry-text clr">
-					<h3> <a href="https://www.0513c.com/captain-america-3.html" title="美国队长3迅雷免费下载" target="_blank">美国队长3迅雷免费下载</a></h3>
-					<div class="meta"> 
-						<span class="postlist-meta-cat"><i class="fa fa-bookmark"></i><a href="https://www.0513c.com/share" rel="category tag">资源分享</a></span> 
-						<span class="postlist-meta-time"><i class="fa fa-calendar"></i>2天前</span> 
-						<span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: 32</span> 
-						<span class="postlist-meta-comments"></span>
+						<h3> <a href="{{ post.url }}" title="{{ post.title }}" target="_blank">{{ post.title }}</a></h3>
+						<div class="meta"> 
+							<span class="postlist-meta-cat"><i class="fa fa-bookmark"></i><a href="https://www.0513c.com/share" rel="category tag">{{ post.categories }}</a></span> 
+							<span class="postlist-meta-time"><i class="fa fa-calendar"></i>{{ post.date | date: "%Y/%m/%d" }}</span> 
+							<span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: 32</span> 
+							<span class="postlist-meta-comments"></span>
+						</div>
+						<p> {{ post.content | strip_html | strip_newlines | truncate:170 }}</p>
 					</div>
-					<p> 文章目录 影视信息 剧情简介 影视剧照 相关下载 《美国队长3》是由美国漫威影业公司出品的科幻动作片，由安东尼·罗素、乔·罗素兄弟联合执导，克里斯·埃文斯、小罗伯特·唐尼、斯嘉丽·约翰逊、杰瑞米·雷纳、塞巴斯蒂安·斯坦、查德维克·博斯曼、安东尼·麦凯联合主演。该片根据漫威2006年出版的漫画大事件《内战》改编，背景故事承接于《复仇者联盟2：奥创纪元》事件的余波中， <a rel="nofollow" class="more-link" style="text-decoration:none;" href="https://www.0513c.com/captain-america-3.html"></a>
-					</p>
-				</div>
-				<div class="clear"></div>
+					<div class="clear"></div>
 				</article>
+				{% endfor %}
+            	{% include home-pagination.html %}
 			</div>
 		</div>
-
 		<script type="text/javascript">$('.site_loading').animate({'width':'55%'},50);  //第二个节点</script>
 		{% include side.html %}
 		<script type="text/javascript">$('.site_loading').animate({'width':'78%'},50);  //第三个节点</script>
