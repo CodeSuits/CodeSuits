@@ -1,23 +1,89 @@
 {% include head.html %}
 {% include header.html %}
 {% include post-header.html %}
-				<section class="article-content">
-					{{ content }}
-				</section>
-
-		        <section class="article-tags">
-		        	Tags: <a href="http://www.qs5.org/tag/js%E8%84%9A%E6%9C%AC/">js脚本</a>, <a href="http://www.qs5.org/tag/%E6%9E%81%E5%AE%A2%E5%AD%A6%E9%99%A2/">极客学院</a>        
-		    	</section>
-
-		        <section class="article-near">
-		            <p>上一篇: <a href="http://www.qs5.org/Post/615.html" title="PHP生成不重复的随机UID，UUID，GUID">PHP生成不重复的随机UID，UUID，GUID</a></p>
-		            <p>下一篇: <a href="http://www.qs5.org/Post/622.html" title="有没有安全的工作？">有没有安全的工作？</a></p>
-		        </section>
-		        {% include post-footer.html %}
-		     </article>
-		</section>
+<div id="main-wrap">
+	<div id="sitenews-wrap" class="container">
+		<div class="contextual bg-sitenews"> 
+			<i class="fa fa-volume-up" style=""></i>
+			<div id="news-scroll-zone">
+				<div class="news-scroll-list">
+					<li class="sitenews-list">
+						<strong>
+							<span style="color: #ff0000;">积分充值必看！否则你就麻烦了！<span style="color: #000000;"><a href="https://www.0513c.com/technology-home-virtual-products-and-points-to-pay-attention-to.html" target="_blank">我点我点</a></span></span>
+						</strong>
+					</li>
+					<li class="sitenews-list">
+						<strong>工单已经关闭！不再提供服务！</strong>
+					</li>
+				</div>
+				<div class="news-scroll-list">
+					<li class="sitenews-list">
+						<strong>
+							<span style="color: #ff0000;">积分充值必看！否则你就麻烦了！<span style="color: #000000;"><a href="https://www.0513c.com/technology-home-virtual-products-and-points-to-pay-attention-to.html" target="_blank">我点我点</a></span></span>
+						</strong>
+					</li>
+					<li class="sitenews-list">
+						<strong>工单已经关闭！不再提供服务！</strong>
+					</li>
+				</div>
+			</div>
+			<span class="infobg-close" style="color:#aaa;"><i class="fa fa-close"></i></span>
+		</div>
+	</div>
+	<div id="single-blog-wrap" class="container two-col-container">
+		<div id="main-wrap-left">
+			<div class="content">
+				<div id="single-meta"> 
+					<span class="single-meta-time"><i class="fa fa-calendar">&nbsp;</i>4天前</span> 
+					<span class="single-meta-category"><i class="fa fa-folder-open">&nbsp;</i><a href="https://www.0513c.com/share" rel="category tag">资源分享</a></span> 
+					<i class="fa fa-paw"></i>
+					<a target="_blank" title="点击查看" rel="external nofollow" href="https://www.baidu.com/s?wd=WordPress 免费博客主题 Newsletter"> 已收录</a> 
+					<span class="jsz" style="float:right;">|&nbsp;<i class="fa fa-exchange"></i> <a class="close-sidebar" style="cursor: pointer; display: inline;" id="stb_btn_kuan" title="Close the sidebar" onclick="addClass1()">隐藏边栏</a> <a style="cursor: pointer; display: none;" class="close-sidebar" id="stb_btn_zhai" title="Open the sidebar" onclick="removeClass1()">显示边栏</a></span> 
+					<span class="single-meta-comments">|&nbsp;<i class="fa fa-comments"></i> 评论关闭</span> 
+					<span class="single-meta-views"><i class="fa fa-fire"></i>&nbsp;34&nbsp;</span>
+				</div>
+				<div id="singletop-banner" class="banner">
+					<div class="my-message-box">最好用的在线网盘，永久免费，更安全。<a target="_blank" href="https://www.0513c.com/go/shaozhiweifile" style="font-weight:bolder;color:#F25637;">点击体验！</a>！</div>
+					<a href="https://www.0513c.com/go/2345"><img class="aligncenter size-full wp-image-4633" src="https://reg.0513c.com/uploads/2016/04/2016-04-1474.jpg" alt="2345ie" width="730" height="139"></a>
+				</div>
+				<div class="single-text">
+					<p><span class="log-button"><a title="本文目录"><i class="fa fa-file-text-o"></i></a></span></p>
+					<div id="log-box" style="display: none;"> 
+						<span class="log-close"><a title="隐藏目录"><i class="fa fa-file-text-o"></i><strong>文章目录</strong></a></span>
+						<p></p>
+						<div id="catalog">
+							<ul id="index-ul">
+								<li><i class="icon-btnPlay"></i><a href="#title-0" title="Newsletter 主题特色">Newsletter 主题特色</a></li>
+								<li><i class="icon-btnPlay"></i><a href="#title-1" title="Newsletter 主题截图">Newsletter 主题截图</a></li>
+								<li><i class="icon-btnPlay"></i><a href="#title-2" title="Newsletter 主题下载">Newsletter 主题下载</a></li>
+							</ul>
+						</div>
+					</div>
+					<p>{{ content }}</p> 
+				</div>
+				<center>
+					<div class="jsz-donate-tool">
+						<div class="jsz-tool-inner">
+							<div class="jsz-tool-title">
+								<div style="text-align: center;" class="jsz-plugin-area" id="J_jszPluginArea">
+									<a class="jsz-btn jsz-btn-simple" id="J_jszDonateBtn"><i class="jsz-icon-tick"></i> <span>去打赏</span> </a>
+								</div>
+							</div>
+							<div class="jsz-tool-footer"> 
+								<span class="jsz-gary-font">支持:</span><span><i class="jsz-icon-wechat"></i> 微信支付</span><span><i class="jsz-icon-alipay"></i> 支付宝</span><span><i class="jsz-icon-paypal"></i> </span>
+							</div>
+						</div>
+					</div>
+				</center>
+				<!--
+				<div class="jsz-donate-popup" id="J_popUpWB"> <a class="jsz-btn-close" id="J_closeBtn"><i class="jsz-icon-close"></i></a><p><strong>您的支持将鼓励我们继续创作！</strong></p><div class="jsz-tab-box" id="J_tabBox"><div class="jsz-tab-nav"><div class="jsz-tab-nav"><div class="jsz-tab-item current"><a><i class="jsz-icon-wechat"></i> 微信支付</a></div><div class="jsz-tab-item"><a><i class="jsz-icon-alipay"></i> 支付宝</a></div><div class="jsz-tab-item" url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=M6XDK99LWCW9L"><a><i class="jsz-icon-paypal"></i> </a></div></div><div class="jsz-tab-cont current"> <img src="https://reg.0513c.com/uploads/img/wpay.png" title="" alt="" height="240" width="240"><p>用 <span class="jsz-hl">[微信]</span> 扫描二维码打赏</p></div><div class="jsz-tab-cont"> <img src="https://reg.0513c.com/uploads/2016/04/2016-04-22100.jpg" title="" alt="" height="240" width="240"><p>用 <span class="jsz-hl">[支付宝]</span> 扫描二维码打赏</p></div><div class="jsz-tab-cont"> 正在跳转到PayPal...</div></div></div></div><div class="overlayd" id="J_maskWB"></div><div class="sg-tag"><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="https://www.0513c.com/tag/newsletter" rel="tag">Newsletter</a> <a href="https://www.0513c.com/tag/wordpress" rel="tag">wordpress</a> <a href="https://www.0513c.com/tag/zhuti" rel="tag">主题</a></div><div class="sg-cp"> <i class="fa fa-bullhorn">&nbsp;</i><p>除特别注明外，本站所有文章均为<a href="https://www.0513c.com/" title="技术宅" target="_blank">技术宅</a>原创，转载请注明出处来自<a href="https://www.0513c.com/wordpress-free-blog-theme-newsletter.html" title="WordPress 免费博客主题 Newsletter">https://www.0513c.com/wordpress-free-blog-theme-newsletter.html</a></p></div><div id="singlebottom-banner" class="banner"> <a href="https://www.0513c.com/go/lx" target="_blank" rel="attachment wp-att-4415"><img class="size-full wp-image-4415" src="https://reg.0513c.com/uploads/2016/03/lx1.png" alt="lx1" width="728" height="90"></a> &nbsp; <a href="https://www.0513c.com/go/wx" target="_blank" rel="attachment wp-att-4413"><img class="size-full wp-image-4413 aligncenter" src="https://reg.0513c.com/uploads/2016/03/wx367.jpg" alt="wx367" width="728" height="90"></a></div><div class="sg-act"><div class="mark-like-btn tinlike clr"> <a class="share-btn like-btn " pid="4922" href="javascript:;" title="点击喜欢"> <i class="fa fa-heart"></i> <span>0</span>人喜欢 </a> <a class="share-btn collect collect-no" style="cursor:default;" title="你必须注册并登录才能收藏"> <i class="fa fa-star"></i> <span>0人收藏 </span> </a></div><div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare baidu-share"> <a class="bds_weixin weixin-btn share-btn"> <i class="fa fa-mobile"></i>穿越到手机<div id="weixin-qt" style="display: none; top: 80px; opacity: 1;"><div id="qrcode" style="display: block;float: left;width: 120px;padding: 10px 0 0 10px;"><canvas width="120" height="120"></canvas></div><div id="weixin-qt-msg">打开微信，点击底部的“发现”，使用“扫一扫”即可将穿越到手机。</div></div> </a> <a href="https://www.0513c.com/go/shaozhiweifile" class="bds_tsina weibo-btn share-btn" data-cmd="tsina"> <i class="fa fa-edit"></i>免费云盘 </a></div></div><div class="sg-author clr"><div class="img"><img src="https://www.0513c.com/wp-content/uploads/avatars/avatar-1.jpg" class="avatar" width="100" height="100"></div><div class="sg-author-info"><div class="word"><div class="wordname">关于<a href="https://www.0513c.com/author/1" title="由内涵打工仔发布" rel="author">内涵打工仔</a></div><div class="authordes">技术宅，专注分享，专注技术！邵志伟个人博客。分享互联网科技新闻轶事，分享生活小常识，各种数码使用小技巧！</div><div class="authorsocial"> <span class="social-icon-wrap"><a class="as-img as-home" href="http://www.shaozhiwei.com" title="作者主页"><i class="fa fa-home"></i>作者主页</a></span> <span class="social-icon-wrap"><a class="as-img as-donate" href="#" title="赞助作者"><i class="fa fa-coffee"></i>赞助作者<div id="as-donate-qr" class="as-qr"><img src="https://www.0513c.com/uploads/img/pay.png" title="手机支付宝扫一扫赞助作者"></div> </a><form id="alipay-gather" style="display:none;" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK"><input name="optEmail" type="hidden" value="shaosir88@foxmail.com"><input name="payAmount" type="hidden" value="10"><input id="title" name="title" type="hidden" value="支持一下"><input name="memo" type="hidden" value=""><input name="pay" type="hidden" value="转帐"></form></span> <span class="social-icon-wrap"><a class="as-img as-sinawb" href="http://weibo.com/338234182" title="微博"><i class="fa fa-weibo"></i></a></span> <span class="social-icon-wrap"><a class="as-img as-qqwb" href="http://t.qq.com/New_lifegroupS" title="腾讯微博"><i class="fa fa-tencent-weibo"></i></a></span> <span class="social-icon-wrap"><a class="as-img as-weixin" href="#" id="as-weixin-a" title="微信"><i class="fa fa-weixin"></i><div id="as-weixin-qr" class="as-qr"><img src="https://www.0513c.com/uploads/img/weixin.png" title="微信扫描二维码加我为好友并交谈"></div> </a></span> <span class="social-icon-wrap"><a class="as-img as-qq" href="http://wpa.qq.com/msgrd?v=3&amp;uin=863051725&amp;site=qq&amp;menu=yes" title="QQ交谈"><i class="fa fa-qq"></i></a></span> <span class="social-icon-wrap"><a class="as-img as-email" href="mailto:863051725@qq.com" title="给我写信"><i class="fa fa-envelope"></i></a></span></div></div></div></div><div class="clear"></div><div class="relpost"><ul><li><div class="relpost-inner"><div class="relpost-inner-pic"> <a href="https://www.0513c.com/coofocus.html" title="简洁的设计主义wordpress主题－CooFocus" class=""><div class="thumb-img"> <img class="box-hide" src="https://www.0513c.com/wp-content/themes/tinection/images/image-pending.gif" data-original="https://www.0513c.com/wp-content/themes/tinection/functions/timthumb.php?src=https://www.0513c.com/uploads/2015/07/9a0790ac68fbc1991.png&amp;q=90&amp;w=175&amp;h=126&amp;zc=1"> <span><i class="fa fa-expand"></i></span></div> </a></div><div class="relpost-inner-text"> <a href="https://www.0513c.com/coofocus.html" rel="bookmark" title="简洁的设计主义wordpress主题－CooFocus">简洁的设计主义wordpress主题－CooFocus </a></div></div><div class="clear"></div></li><li><div class="relpost-inner"><div class="relpost-inner-pic"> <a href="https://www.0513c.com/yusi.html" title="WordPress主题：Yusi1.0(扁平化+响应式)免费下载" class=""><div class="thumb-img"> <img class="box-hide" src="https://www.0513c.com/wp-content/themes/tinection/images/image-pending.gif" data-original="https://reg.0513c.com/uploads/2015/01/b9607a2a49eb053893fd395efaa0ee15-750x500.gif?imageView2/1/w/175/h/126/q/100" alt="WordPress主题：Yusi1.0(扁平化+响应式)免费下载"> <span><i class="fa fa-expand"></i></span></div> </a></div><div class="relpost-inner-text"> <a href="https://www.0513c.com/yusi.html" rel="bookmark" title="WordPress主题：Yusi1.0(扁平化+响应式)免费下载">WordPress主题：Yusi1.0(扁平化+响应式)免费下... </a></div></div><div class="clear"></div></li><li><div class="relpost-inner"><div class="relpost-inner-pic"> <a href="https://www.0513c.com/wordpress-page-load-time-show-code.html" title="wordpress页面加载时间显示代码" class=""><div class="thumb-img"> <img class="box-hide" src="https://www.0513c.com/wp-content/themes/tinection/images/image-pending.gif" data-original="https://www.0513c.com/wp-content/themes/tinection/functions/timthumb.php?src=https://www.0513c.com/wp-content/themes/tinection/images/random/18.jpg&amp;q=90&amp;w=175&amp;h=126&amp;zc=1"> <span><i class="fa fa-expand"></i></span></div> </a></div><div class="relpost-inner-text"> <a href="https://www.0513c.com/wordpress-page-load-time-show-code.html" rel="bookmark" title="wordpress页面加载时间显示代码">wordpress页面加载时间显示代码 </a></div></div><div class="clear"></div></li><li><div class="relpost-inner"><div class="relpost-inner-pic"> <a href="https://www.0513c.com/1960.html" title="马化腾：产品经理最重要的能力是把自己变傻瓜" class=""><div class="thumb-img"> <img class="box-hide" src="https://www.0513c.com/wp-content/themes/tinection/images/image-pending.gif" data-original="https://www.0513c.com/wp-content/themes/tinection/functions/timthumb.php?src=https://www.0513c.com/uploads/2015/06/120397342-375x250.jpg&amp;q=90&amp;w=175&amp;h=126&amp;zc=1"> <span><i class="fa fa-expand"></i></span></div> </a></div><div class="relpost-inner-text"> <a href="https://www.0513c.com/1960.html" rel="bookmark" title="马化腾：产品经理最重要的能力是把自己变傻瓜">马化腾：产品经理最重要的能力是把自己变傻瓜 </a></div></div><div class="clear"></div></li></ul></div><div class="navigation"><div class="navigation-left"> <span>上一篇</span> <a href="https://www.0513c.com/the-right-skills-to-use-the-technology-house-cloud-task-platform-get.html" rel="prev">技术宅云任务平台使用的正确技能GET</a><a>&nbsp;</a></div><div class="navigation-right"> <span>下一篇</span> <a>&nbsp;</a><a href="https://www.0513c.com/captain-america-3.html" rel="next">美国队长3迅雷免费下载</a></div></div><div id="cmnt-banner1" class="banner"></div></div>
+				-->
+			</div>
+		</div>
+		<script type="text/javascript">$('.site_loading').animate({'width':'55%'},50);  //第二个节点</script> 
 		{% include side.html %}
-    </article>
-</article>
+		<script type="text/javascript">$('.site_loading').animate({'width':'78%'},50);  //第三个节点</script>
+	</div>
+</div>
 {% include footer.html %}
 {% include foot.html %}
