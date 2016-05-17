@@ -203,7 +203,7 @@ li.menu-item a span{display:none;}
 #searchsubmit{color:#fff;background:#a1a1a1;height:40px;line-height:40px;width:40px;text-align:center;top:0;right:0;margin-top:0;font-size:16px;outline: none;position: absolute;cursor: pointer;}
 #searchsubmit:hover{background:#919191}
 #searchsubmit i{position:relative;}
-.breadcrumbs-text {font-size: 14px;line-height:20px;}
+.breadcrumbs-text {font-size: 14px;line-height:20px;color:#FFF;text-shadow:0 0 3px #555}
 .breadcrumbs-text a, .breadcrumbs-text a:hover{color: #fff;}
 .breadcrumbs-text a:hover{text-decoration: underline;}
 #breadcrumbs{padding-right: 325px;}
