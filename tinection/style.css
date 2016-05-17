@@ -196,7 +196,7 @@ li.menu-item a span{display:none;}
 
 /* breadcrumbs */
 .breadcrumbs{background:transparent url(https://www.0513c.com/uploads/2016/03/breadone.jpg) repeat scroll 0 0;padding:45px 0;border-bottom:1px solid rgba(0,0,0,.05);border-top:1px solid rgba(0,0,0,.05);}
-body.home .breadcrumbs {background: #fff; padding: 25px 0;}
+/*body.home .breadcrumbs {background: #fff; padding: 25px 0;}*/
 .header-search {position: absolute; right: 0; width:300px; height: 40px; margin-top:10px;}
 .header-search input{font-size:14px;height:40px;line-height:40px;}
 #searchform{height: 40px;}
@@ -204,10 +204,10 @@ body.home .breadcrumbs {background: #fff; padding: 25px 0;}
 #searchsubmit:hover{background:#919191}
 #searchsubmit i{position:relative;}
 .breadcrumbs-text {font-size: 14px;line-height:20px;}
-.breadcrumbs-text a, .breadcrumbs-text a:hover{color: #989898;}
+.breadcrumbs-text a, .breadcrumbs-text a:hover{color: #fff;}
 .breadcrumbs-text a:hover{text-decoration: underline;}
 #breadcrumbs{padding-right: 325px;}
-#breadcrumbs h1{font-size:25px;line-height: 40px;overflow: hidden;}
+#breadcrumbs h1{font-size:25px;line-height: 40px;overflow: hidden;color:#FFF;text-shadow:1px 1px 3px #555}
 #breadcrumbs h1 i{margin-right:5px;}
 
 /* Main Wrap*/
