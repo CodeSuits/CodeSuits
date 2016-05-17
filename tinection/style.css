@@ -1853,6 +1853,10 @@ pre.code textarea:focus {border: none;box-shadow: none;}
 .line_gw{position:absolute;top:0;left:50%;z-index:1;margin-left:-600px;width:1200px;height:7px}
 .l_g{float:left;width:50%;height:7px;background:#0fca93}
 .l_w{float:right;width:50%;height:7px;background:#ffdc35}
+
+#circle{background-color:rgba(0,0,0,0);border:5px solid rgba(0,183,229,0.9);opacity:.9;border-right:5px solid rgba(0,0,0,0);border-left:5px solid rgba(0,0,0,0);border-radius:50px;box-shadow:0 0 35px #2187e7;width:50px;height:50px;margin:0 auto;position:fixed;left:30px;bottom:30px;-moz-animation:spinPulse 1s infinite ease-in-out;-webkit-animation:spinPulse 1s infinite ease-in-out;-o-animation:spinPulse 1s infinite ease-in-out;-ms-animation:spinPulse 1s infinite ease-in-out}
+#circle1{background-color:rgba(0,0,0,0);border:5px solid rgba(0,183,229,0.9);opacity:.9;border-left:5px solid rgba(0,0,0,0);border-right:5px solid rgba(0,0,0,0);border-radius:50px;box-shadow:0 0 15px #2187e7;width:30px;height:30px;margin:0 auto;position:fixed;left:40px;bottom:40px;-moz-animation:spinoffPulse 1s infinite linear;-webkit-animation:spinoffPulse 1s infinite linear;-o-animation:spinoffPulse 1s infinite linear;-ms-animation:spinoffPulse 1s infinite linear}
+
 /* CSS3 Animate
 /* ---------------- */
 @keyframes heartbomb{
