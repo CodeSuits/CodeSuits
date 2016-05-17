@@ -266,7 +266,7 @@ ul.sub-menu li a:before{content:"";font: normal 8px/1 FontAwesome;position: abso
 .header-search input{height: 25px;}
 input[type="search"]{padding: 5px 10px;}
 #searchsubmit{height: 25px;line-height: 25px;width: 25px;}
-.breadcrumbs{padding: 10px !important;background: #fff;}
+.breadcrumbs{padding: 10px !important;/*background: #fff;*/}
 #breadcrumbs{padding-right: 0;}
 #breadcrumbs h1{display: none;}
 .breadcrumbs-text{margin: 5px 0;font-size:12px !important;}
