@@ -1487,9 +1487,9 @@ div.ppt {	color: #fff;display: none;font-size: 17px;margin: 0 0 5px 15px;z-index
 /* Sitenews marquee
 /* ----------------- */
 .bg-sitenews {width:100%;background:#fff;color:#222;font-size:14px;padding: 16px 10px 14px !important;margin:10px auto !important;border-radius:0 !important;position:relative;border: 1px solid #eaeaea;}
-body.home .bg-sitenews {border: none;margin: 0px auto !important;display:block;}
+/*body.home .bg-sitenews {border: none;margin: 0px auto !important;display:block;}*/
 body.home #sitenews-wrap{width: 100%;background: #fff;display:block;}
-#sitenews-wrap .bg-sitenews{max-width: 1200px}
+#sitenews-wrap .bg-sitenews{max-width: 100%}
 #sitenews-wrap.container{max-width: 100%;}
 #news-scroll-zone{height:20px;overflow:hidden;line-height:20px;}
 .bg-sitenews i.fa-volume-up{float:left;line-height:20px;margin:0 20px 0 0;padding: 0;/*color: #74D2A0;*/}
