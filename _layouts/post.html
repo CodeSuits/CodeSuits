@@ -106,7 +106,7 @@
 					<i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="https://www.0513c.com/tag/newsletter" rel="tag">Newsletter</a> <a href="https://www.0513c.com/tag/wordpress" rel="tag">wordpress</a> <a href="https://www.0513c.com/tag/zhuti" rel="tag">主题</a>
 				</div>
 				<div class="sg-cp"> 
-					<i class="fa fa-bullhorn">&nbsp;</i><p>除特别注明外，本站所有文章均为<a href="https://www.0513c.com/" title="技术宅" target="_blank">技术宅</a>原创，转载请注明出处来自<a href="https://www.0513c.com/wordpress-free-blog-theme-newsletter.html" title="WordPress 免费博客主题 Newsletter">https://www.0513c.com/wordpress-free-blog-theme-newsletter.html</a></p>
+					<i class="fa fa-bullhorn">&nbsp;</i><p>除特别注明外，本站所有文章均为<a href="{{ site.url }}" title="{{site.name}}" target="_blank">{{site.name}}</a>原创，转载请注明出处来自<a href="{{ page.url }}" title="{{ page.title }}">{{ page.url }}</a></p>
 				</div>
 				<div id="singlebottom-banner" class="banner"> 
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -128,6 +128,7 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</div>
+				{% include post-footer.html %}
 				<div class="clear"></div>
 				<div class="relpost">
 					<ul>
@@ -193,7 +194,6 @@
 						</li>
 					</ul>
 				</div>
-				{% include post-footer.html %}
 				<div class="navigation">
 					<div class="navigation-left"> 
 						<span>上一篇</span> <a href="https://www.0513c.com/the-right-skills-to-use-the-technology-house-cloud-task-platform-get.html" rel="prev">技术宅云任务平台使用的正确技能GET</a><a>&nbsp;</a>
