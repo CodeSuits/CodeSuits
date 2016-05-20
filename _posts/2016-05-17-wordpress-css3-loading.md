@@ -188,6 +188,8 @@ public override string CanAccept (TaskSetting setting)
 }
 {% endhighlight %} 
 
+## 应用
+
 在文章底部</footer>前加入
 
 {% highlight css %}
