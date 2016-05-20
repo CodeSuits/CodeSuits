@@ -117,7 +117,7 @@ public override string CanAccept (TaskSetting setting)
 
 ## 黑色版
 
-{% highlight bash lineno  %}
+{% highlight %}
 #circle {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgba(10,10,10,0.9);   
