@@ -14,7 +14,7 @@ img: my_pics/emsuits.com.png
 
 ## 蓝色版
 
-{% highlight %}
+{% highlight lua %}
 /* 超炫CSS3旋转圆圈加载中特效 蓝色版 */
 /* 微Fan'天空 www.weeiy.com*/
 #circle { 
@@ -96,7 +96,7 @@ img: my_pics/emsuits.com.png
 
 ## 黑色版
 
-{% highlight %}
+{% highlight lua %}
 #circle {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgba(10,10,10,0.9);   
@@ -178,13 +178,13 @@ img: my_pics/emsuits.com.png
 
 在文章底部</footer>前加入
 
-{% highlight %}
+{% highlight lua %}
 <div id="circle"></div> <div id="circle1" ></div>
 {% endhighlight %}
 
  在文章底部</footer>后加入
 
-{% highlight %}
+{% highlight lua %}
 <script type="text/javascript">   
 $(window).load(function() {        
 $("#circle").fadeOut(500);   
