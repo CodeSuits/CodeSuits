@@ -260,9 +260,9 @@ body.home .two-col-container{margin-top: 10px;}
 .flexslider-nar .flex-control-paging li a{background-position:0 -56px;}
 .flex-control-paging li a.flex-active{background-position:0 0;}
 .flexslider-nar .flex-control-paging li a.flex-active{background-position:0 -32px;}
-.flexslider-nar{width:60%;float:left;margin:16px 0;padding:0;overflow: hidden;}
+.flexslider-nar{width:60%;float:left;margin:0;padding:0;overflow: hidden;}
 .flexslider-nar .flex-viewport{background: #fff;}
-#flexslider-right{width:40%;float:left;height:336px;margin-top:16px;padding-left:20px;}
+#flexslider-right{width:40%;float:left;height:336px;padding-left:20px;}
 .slider-newest{background:#fff;width: 100%;height: 100%;display: block;padding:10px 0;overflow: hidden;}
 .flexslider-nar .slides li{position:relative;overflow: hidden;}
 .flexslider-nar .slides li .slider-img{width:100%;margin:0;padding-left: 0;}
