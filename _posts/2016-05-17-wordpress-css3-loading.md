@@ -12,7 +12,7 @@ img: my_pics/emsuits.com.png
 
 在许多WordPress博客都看到了这个特效，找了许久终于找到了，微饭直接Copy过来了，有蓝色和黑色两种颜色，可以根据自己主题选择。
 
-{% highlight bash linenos %}
+{% highlight %}
 
 public override string CanAccept (TaskSetting setting)
 
@@ -35,7 +35,7 @@ public override string CanAccept (TaskSetting setting)
 
 ## 蓝色版
 
-{% highlight bash lineno  %}
+{% highlight %}
 /* 超炫CSS3旋转圆圈加载中特效 蓝色版 */
 /* 微Fan'天空 www.weeiy.com*/
 #circle { 
@@ -199,13 +199,13 @@ public override string CanAccept (TaskSetting setting)
 
 在文章底部</footer>前加入
 
-{% highlight css %}
+{% highlight %}
 <div id="circle"></div> <div id="circle1" ></div>
 {% endhighlight %}
 
  在文章底部</footer>后加入
 
-{% highlight css %}
+{% highlight %}
 <script type="text/javascript">   
 $(window).load(function() {        
 $("#circle").fadeOut(500);   
