@@ -10,20 +10,6 @@ img: my_pics/emsuits.com.png
 
 # WordPress美化：超炫CSS3旋转圆圈加载中蓝/黑特效
 
-{% highlight %}
-public override string CanAccept (TaskSetting setting)
-{
-    var msg = base.CanAccept (setting);
-    if(msg != null)
-        return msg;
-    
-    if(!string.IsNullOrEmpty(setting.Degree) && DegreeCtrl.Instance.GetCurDegree(setting.Degree) <= 0)
-        return "今天的任务已完成，下次再来吧";
-
-    return null;
-}
-{% endhighlight %}
-
 在许多WordPress博客都看到了这个特效，找了许久终于找到了，微饭直接Copy过来了，有蓝色和黑色两种颜色，可以根据自己主题选择。
 
 ## 蓝色版
