@@ -1814,7 +1814,7 @@ body.page-template-page-radio-php #pp_full_res iframe {width:100%;}
 
 /* prettyprint
 /* ------------ */
-.highlight {overflow-x:auto;overflow-y:hidden;margin-bottom:15px;border:0 solid #e1e1e8;border-radius:3px;background:#f7f7f9;position: relative;}
+.highlight {overflow-x:auto;overflow-y:hidden;margin-bottom:15px;border:0 solid #e1e1e8;border-radius:0;background:#f7f7f9;position: relative;}
 /*.highlight pre{border:0;border-radius:0;}*/
 .highlight::-webkit-scrollbar {height:10px;background:#F8E4FF url(images/stripes_tiny.png) repeat;box-shadow:2px 2px 2px #DDDAFF;border-radius:3px;}
 .highlight::-webkit-scrollbar-button {display:none;}
@@ -1907,6 +1907,7 @@ figure pre{-webkit-box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0;-moz
 code{margin:0 0 0 0;padding-left:0;list-style:decimal outside}
 code span{padding-left:0px;color:#48484c;line-height:25px;margin-top:0;margin-bottom:0;list-style:decimal outside;white-space:initial}
 figure {display: block;-webkit-margin-before: 0em;-webkit-margin-after: 0em;-webkit-margin-start: 0;-webkit-margin-end: 0;}
+tr .code{border:0 solid #aaa;}
 .gutter{border: 0px;}
 /*pre {border:1px solid #e1e1e8;border-radius:3px;white-space: nowrap; white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;overflow-x:auto;}*/
 
