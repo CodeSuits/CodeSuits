@@ -28,12 +28,12 @@ Tags: light, one-column, two-columns, fluid-layout, fixed-layout, custom-colors,
 /* ------------------------------------------------------------------------- *
  *  Reset
  * ------------------------------------------------------------------------- */
-html,body,button,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,article,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,section,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,tr {white-space: pre; margin:0;padding:0;border:none;outline:0;font-weight:inherit;font-style:inherit;vertical-align:baseline;background:transparent;font-family:"Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;list-style:none;}
+html,body,button,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,article,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,section,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,tr {margin:0;padding:0;border:none;outline:0;font-weight:inherit;font-style:inherit;vertical-align:baseline;background:transparent;font-family:"Microsoft YaHei","微软雅黑",Arial,"Open Sans",SimSun,sans-serif;list-style:none;}
 html {font-size:62.5%;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;min-height:100%;}
 *:focus {outline:none;} 
 textarea {resize:none;}
 *,*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-
+pre{white-space: pre;}
 /* ------------------------------------------------------------------------- *
  *  Base Styles
 /* ------------------------------------------------------------------------- */
