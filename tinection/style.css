@@ -1907,6 +1907,7 @@ figure pre{-webkit-box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0;-moz
 code{margin:0 0 0 0;padding-left:0;list-style:decimal outside}
 code span{padding-left:0px;color:#48484c;line-height:25px;margin-top:0;margin-bottom:0;list-style:decimal outside;white-space:initial}
 figure {display: block;-webkit-margin-before: 0em;-webkit-margin-after: 0em;-webkit-margin-start: 0;-webkit-margin-end: 0;}
+.gutter{border: 0px;}
 /*pre {border:1px solid #e1e1e8;border-radius:3px;white-space: nowrap; white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;overflow-x:auto;}*/
 
 
