@@ -1905,6 +1905,7 @@ a.jsz-btn-simple{display:inline-block;height:auto;min-width:100px;line-height:16
 #circle1{background-color:rgba(0,0,0,0);border:5px solid rgba(0,183,229,0.9);opacity:.9;border-left:5px solid rgba(0,0,0,0);border-right:5px solid rgba(0,0,0,0);border-radius:50px;box-shadow:0 0 15px #2187e7;width:30px;height:30px;margin:0 auto;position:fixed;left:40px;bottom:40px;-moz-animation:spinoffPulse 1s infinite linear;-webkit-animation:spinoffPulse 1s infinite linear;-o-animation:spinoffPulse 1s infinite linear;-ms-animation:spinoffPulse 1s infinite linear}
 .google_ad{max-width: 100%;height: auto;}
 .code pre{-webkit-box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0;-moz-box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0;box-shadow:inset 40px 0 0 #eee,inset 42px 0 0;white-space: pre;}
+.lineno{white-space: pre;}
 code{margin:0 0 0 33px;padding-left:0;list-style:decimal outside}
 code span{padding-left:12px;color:#bebec5;line-height:25px;margin-top:0;margin-bottom:0;list-style:decimal outside;white-space:initial}
 
