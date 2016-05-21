@@ -1814,13 +1814,13 @@ body.page-template-page-radio-php #pp_full_res iframe {width:100%;}
 
 /* prettyprint
 /* ------------ */
-.precode {overflow-x:auto;overflow-y:hidden;margin-bottom:15px;border:1px solid #e1e1e8;border-radius:3px;background:#f7f7f9;position: relative;}
-.precode pre{border:0;border-radius:0;}
-.precode::-webkit-scrollbar {height:10px;background:#F8E4FF url(images/stripes_tiny.png) repeat;box-shadow:2px 2px 2px #DDDAFF;border-radius:3px;}
-.precode::-webkit-scrollbar-button {display:none;}
-.precode::-webkit-scrollbar-thumb {background:#A286FF !important;border-radius:3px;}
-.precode::-webkit-scrollbar-thumb:horizontal:hover {background:#B3A2FF !important;box-shadow:3px 3px 3px #F5EEF3;}
-.precode::-webkit-resizer {display:none;}
+.highlight {overflow-x:auto;overflow-y:hidden;margin-bottom:15px;border:1px solid #e1e1e8;border-radius:3px;background:#f7f7f9;position: relative;}
+.highlight pre{border:0;border-radius:0;}
+.highlight::-webkit-scrollbar {height:10px;background:#F8E4FF url(images/stripes_tiny.png) repeat;box-shadow:2px 2px 2px #DDDAFF;border-radius:3px;}
+.highlight::-webkit-scrollbar-button {display:none;}
+.highlight::-webkit-scrollbar-thumb {background:#A286FF !important;border-radius:3px;}
+.highlight::-webkit-scrollbar-thumb:horizontal:hover {background:#B3A2FF !important;box-shadow:3px 3px 3px #F5EEF3;}
+.highlight::-webkit-resizer {display:none;}
 .prettyprint {padding:8px;background-color:#f7f7f9;line-height:25px;width:auto;min-width:99%;width:99%;font-size:14px;}
 .prettyprint.linenums {-webkit-box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0;-moz-box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0;box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0;}
 .old-code {display: none;border: none;line-height: 25px;letter-spacing: 1px;}
