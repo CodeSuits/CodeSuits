@@ -29,17 +29,17 @@ img: my_pics/device-2013-11-14-203153-1024x576.jpg
  
 嗯，然后就没什么重要的了，在181行，找到下面这段代码：
 
-this.mInputEditText.setImeOptions(oldImeOptions | EditorInfo.IME_FLAG_NO_EXTRACT_UI);
+> this.mInputEditText.setImeOptions(oldImeOptions | EditorInfo.IME_FLAG_NO_EXTRACT_UI);
  
 把它改成下面的样子：
 
-this.mInputEditText.setImeOptions(oldImeOptions | EditorInfo.IME_ACTION_GO);
+> this.mInputEditText.setImeOptions(oldImeOptions | EditorInfo.IME_ACTION_GO);
 
 ## 测试
 
 然后clean一下项目，好让这些Java文件重新编译，最后，再次运行游戏，打开输入框，效果如下：
 
-![](my_pics/device-2013-11-14-203153-1024x576.jpg)
+![](my_pics/device-2013-11-14-203332-1024x576.png)
 
 这才是我想要的，我想，这样的话，正常人在输入完内容之后都会点【完成】按钮了吧？
 
