@@ -22,7 +22,7 @@ img: my_pics/20141111091623993.png
 
 我一直的习惯把系统语言设置为英文（强迫性记忆），这是第一次遇到乱码问题，分析了程序执行参数如下：
 
-ps -ef | grep java
+> ps -ef | grep java
 
 执行后得到如下的结果，省略了classpath：
 
@@ -56,7 +56,7 @@ ps -ef | grep java
 
 -Dfile.encoding=UTF-8
 
-    PS：从12.1版本开始默认添加了这个参数
+PS：从12.1版本开始默认添加了这个参数
 
 3.2. 步骤二
 
