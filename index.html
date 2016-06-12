@@ -11,11 +11,11 @@ sidePart: true
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <p class="post-date">Posted on {{ post.date | date: "%b %-d, %Y" }} ;
             浏览量: <span data-hk-page="{{ post.url | prepend: site.url }}"> - </span>次
-        	{% for label in post.labels %}
-        	<a href="{{ site.baseurl }}/all-articles/?label={{ label }}"><span class="post-label">{{ label }}</span></a>
-        	{% endfor %}
         </p>
         <p class="post-description">{{ post.description }} <a class="post-link2" href="{{ post.url | prepend: site.baseurl }}">[继续阅读...]</a></p>
+        {% for label in post.labels %}
+          <a href="{{ site.baseurl }}/all-articles/?label={{ label }}"><span class="post-label">{{ label }}</span></a>
+        {% endfor %}
       </li>
       {% endif %}
     {% endfor %}
