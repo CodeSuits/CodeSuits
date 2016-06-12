@@ -1,207 +1,31 @@
-{% include head.html %}
-{% include header.html %}
-{% include post-header.html %}
-<div id="main-wrap">
-	<div id="sitenews-wrap" class="container">
-		<div class="contextual bg-sitenews"> 
-			<i class="fa fa-volume-up" style=""></i>
-			<div id="news-scroll-zone">
-				<div class="news-scroll-list">
-					<li class="sitenews-list">
-						<strong>
-							<span style="color: #ff0000;">积分充值必看！否则你就麻烦了！<span style="color: #000000;"><a href="https://www.0513c.com/technology-home-virtual-products-and-points-to-pay-attention-to.html" target="_blank">我点我点</a></span></span>
-						</strong>
-					</li>
-					<li class="sitenews-list">
-						<strong>工单已经关闭！不再提供服务！</strong>
-					</li>
-				</div>
-				<div class="news-scroll-list">
-					<li class="sitenews-list">
-						<strong>
-							<span style="color: #ff0000;">积分充值必看！否则你就麻烦了！<span style="color: #000000;"><a href="https://www.0513c.com/technology-home-virtual-products-and-points-to-pay-attention-to.html" target="_blank">我点我点</a></span></span>
-						</strong>
-					</li>
-					<li class="sitenews-list">
-						<strong>工单已经关闭！不再提供服务！</strong>
-					</li>
-				</div>
-			</div>
-			<span class="infobg-close" style="color:#aaa;"><i class="fa fa-close"></i></span>
-		</div>
-	</div>
-	<div id="single-blog-wrap" class="container two-col-container">
-		<div id="main-wrap-left">
-			<div class="content">
-				<div id="single-meta"> 
-					<span class="single-meta-time"><i class="fa fa-calendar">&nbsp;</i>{{ page.date | date: "%Y/%m/%d" }}</span> 
-					<span class="single-meta-category"><i class="fa fa-folder-open">&nbsp;</i><a href="https://www.0513c.com/share" rel="category tag">{{ page.categories }}</a></span> 
-				</div>
-				<div id="singletop-banner" class="banner">
-					<div class="my-message-box">高性能服务器，就选阿里云。<a target="_blank" href="http://s.click.taobao.com/t?e=m%3D2%26s%3DQq3C7QDh2RccQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAlMEV4Tij%2FehDx8CHme7ZTL%2B%2FaEHvgHcL9ZA21SWYhGCpJ3eoF1R7EW0PZ1vOmwZ%2Fudn1BbglxZYxUhy8exlzcpAFEHVckI7b3VyxRO0gvF4QxJtmCgOmCLZ%2FNxlvga2vCGHCdjJcucekOhRYlOUmx1Fm6NGcinC4sYl7w3%2FA2kb" style="font-weight:bolder;color:#F25637;">点击体验！</a>！
-					</div>
-					<div class="google_ad">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- 文章头部 -->
-						<ins class="adsbygoogle"
-							 style="display:inline-block;width:728px;height:90px"
-							 data-ad-client="ca-pub-7025668532947638"
-							 data-ad-slot="5383484702"></ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="single-text">
-					<p>{{ content }}</p> 
-				</div>
-				<center>
-					<div class="jsz-donate-tool">
-						<div class="jsz-tool-inner">
-							<div class="jsz-tool-title">
-								<div style="text-align: center;" class="jsz-plugin-area" id="J_jszPluginArea">
-									<a class="jsz-btn jsz-btn-simple" id="J_jszDonateBtn"><i class="jsz-icon-tick"></i> <span>去打赏</span> </a>
-								</div>
-							</div>
-							<div class="jsz-tool-footer"> 
-								<span class="jsz-gary-font">支持:</span><span><i class="jsz-icon-wechat"></i> 微信支付</span><span><i class="jsz-icon-alipay"></i> 支付宝</span><span><i class="jsz-icon-paypal"></i> </span>
-							</div>
-						</div>
-					</div>
-				</center>
-				<div class="jsz-donate-popup" id="J_popUpWB"> 
-					<a class="jsz-btn-close" id="J_closeBtn"><i class="jsz-icon-close"></i></a>
-					<p>
-						<strong>您的支持将鼓励我们继续创作！</strong>
-					</p>
-					<div class="jsz-tab-box" id="J_tabBox">
-						<div class="jsz-tab-nav">
-							<div class="jsz-tab-nav">
-								<div class="jsz-tab-item current"><a><i class="jsz-icon-wechat"></i> 微信支付</a></div>
-								<div class="jsz-tab-item"><a><i class="jsz-icon-alipay"></i> 支付宝</a></div>
-								<div class="jsz-tab-item" url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6XDK99LWCW9L">
-									<a><i class="jsz-icon-paypal"></i> </a>
-								</div>
-							</div>
-							<div class="jsz-tab-cont current"> 
-								<img src="https://reg.0513c.com/uploads/img/wpay.png" title="" alt="" height="240" width="240"><p>用 <span class="jsz-hl">[微信]</span> 扫描二维码打赏</p>
-							</div>
-							<div class="jsz-tab-cont"> 
-								<img src="https://reg.0513c.com/uploads/2016/04/2016-04-22100.jpg" title="" alt="" height="240" width="240"><p>用 <span class="jsz-hl">[支付宝]</span> 扫描二维码打赏</p>
-							</div>
-							<div class="jsz-tab-cont"> 正在跳转到PayPal...</div>
-						</div>
-					</div>
-				</div>
-				<div class="overlayd" id="J_maskWB"></div>
-				<div class="sg-tag">
-					<i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="https://www.0513c.com/tag/newsletter" rel="tag">Newsletter</a> <a href="https://www.0513c.com/tag/wordpress" rel="tag">wordpress</a> <a href="https://www.0513c.com/tag/zhuti" rel="tag">主题</a>
-				</div>
-				<div class="sg-cp"> 
-					<i class="fa fa-bullhorn">&nbsp;</i><p>除特别注明外，本站所有文章均为<a href="{{ site.url }}" title="{{site.name}}" target="_blank">{{site.name}}</a>原创，转载请注明出处来自<a href="{{ page.url }}" title="{{ page.title }}">{{ page.url }}</a></p>
-				</div>
-				<div id="singlebottom-banner" class="banner"> 
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- 文章底部_1 -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:728px;height:90px"
-						     data-ad-client="ca-pub-7025668532947638"
-						     data-ad-slot="7174615508"></ins>
-					<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- 文章底部_2 -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:728px;height:90px"
-						     data-ad-client="ca-pub-7025668532947638"
-						     data-ad-slot="2604815106"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
-				{% include post-footer.html %}
-				<div class="clear"></div>
-				<div class="relpost">
-					<ul>
-						<li>
-							<div class="relpost-inner">
-								<div class="relpost-inner-pic"> 
-									<a href="https://www.0513c.com/1960.html" title="马化腾：产品经理最重要的能力是把自己变傻瓜" class="">
-										<div class="thumb-img"> 
-											<img class="box-hide" src="https://www.0513c.com/wp-content/themes/tinection/images/image-pending.gif" data-original="https://www.0513c.com/wp-content/themes/tinection/functions/timthumb.php?src=https://www.0513c.com/uploads/2015/06/120397342-375x250.jpg&q=90&w=175&h=126&zc=1"> <span><i class="fa fa-expand"></i></span>
-										</div> 
-									</a>
-								</div>
-								<div class="relpost-inner-text"> 
-									<a href="https://www.0513c.com/1960.html" rel="bookmark" title="马化腾：产品经理最重要的能力是把自己变傻瓜">马化腾：产品经理最重要的能力是把自己变傻瓜 </a>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</li>
-						<li>
-							<div class="relpost-inner">
-								<div class="relpost-inner-pic"> 
-									<a href="https://www.0513c.com/1960.html" title="马化腾：产品经理最重要的能力是把自己变傻瓜" class="">
-										<div class="thumb-img"> 
-											<img class="box-hide" src="https://www.0513c.com/wp-content/themes/tinection/images/image-pending.gif" data-original="https://www.0513c.com/wp-content/themes/tinection/functions/timthumb.php?src=https://www.0513c.com/uploads/2015/06/120397342-375x250.jpg&q=90&w=175&h=126&zc=1"> <span><i class="fa fa-expand"></i></span>
-										</div> 
-									</a>
-								</div>
-								<div class="relpost-inner-text"> 
-									<a href="https://www.0513c.com/1960.html" rel="bookmark" title="马化腾：产品经理最重要的能力是把自己变傻瓜">马化腾：产品经理最重要的能力是把自己变傻瓜 </a>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</li>
-						<li>
-							<div class="relpost-inner">
-								<div class="relpost-inner-pic"> 
-									<a href="https://www.0513c.com/1960.html" title="马化腾：产品经理最重要的能力是把自己变傻瓜" class="">
-										<div class="thumb-img"> 
-											<img class="box-hide" src="https://www.0513c.com/wp-content/themes/tinection/images/image-pending.gif" data-original="https://www.0513c.com/wp-content/themes/tinection/functions/timthumb.php?src=https://www.0513c.com/uploads/2015/06/120397342-375x250.jpg&q=90&w=175&h=126&zc=1"> <span><i class="fa fa-expand"></i></span>
-										</div> 
-									</a>
-								</div>
-								<div class="relpost-inner-text"> 
-									<a href="https://www.0513c.com/1960.html" rel="bookmark" title="马化腾：产品经理最重要的能力是把自己变傻瓜">马化腾：产品经理最重要的能力是把自己变傻瓜 </a>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</li>
-						<li>
-							<div class="relpost-inner">
-								<div class="relpost-inner-pic"> 
-									<a href="https://www.0513c.com/1960.html" title="马化腾：产品经理最重要的能力是把自己变傻瓜" class="">
-										<div class="thumb-img"> 
-											<img class="box-hide" src="https://www.0513c.com/wp-content/themes/tinection/images/image-pending.gif" data-original="https://www.0513c.com/wp-content/themes/tinection/functions/timthumb.php?src=https://www.0513c.com/uploads/2015/06/120397342-375x250.jpg&q=90&w=175&h=126&zc=1"> <span><i class="fa fa-expand"></i></span>
-										</div> 
-									</a>
-								</div>
-								<div class="relpost-inner-text"> 
-									<a href="https://www.0513c.com/1960.html" rel="bookmark" title="马化腾：产品经理最重要的能力是把自己变傻瓜">马化腾：产品经理最重要的能力是把自己变傻瓜 </a>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</li>
-					</ul>
-				</div>
-				<div class="navigation">
-					<div class="navigation-left"> 
-						<span>上一篇</span> <a href="https://www.0513c.com/the-right-skills-to-use-the-technology-house-cloud-task-platform-get.html" rel="prev">技术宅云任务平台使用的正确技能GET</a><a>&nbsp;</a>
-					</div>
-					<div class="navigation-right"> 
-						<span>下一篇</span> <a>&nbsp;</a><a href="https://www.0513c.com/captain-america-3.html" rel="next">美国队长3迅雷免费下载</a>
-					</div>
-				</div>
-				<div id="cmnt-banner1" class="banner"></div>
-			</div>
-		</div>
-		<script type="text/javascript">$('.site_loading').animate({'width':'55%'},50);  //第二个节点</script> 
-		{% include side.html %}
-		<script type="text/javascript">$('.site_loading').animate({'width':'78%'},50);  //第三个节点</script>
-		</div>
-	</div>
-	<div style="height:10px;"></div>
-{% include footer.html %}
-{% include foot.html %}
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }} <span class="pause"> - </span>
+        浏览量：<span data-hk-page="current"> - </span>次<span class="pause"> | </span>
+        {% if page.labels %}
+            {% for label in page.labels %}
+                <a class="label" href="{{ site.baseurl }}/all-articles/?label={{ label }}">{{ label }}</a>
+            {% endfor %}
+        {% endif %}
+    </p>
+  </header>
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+
+  {% if page.copyright %}
+  <p class="copyright">
+    本文的版权归作者 <a href="mailto:{{ site.email }}">{{ site.owner }}</a> 所有，采用 <a href="http://creativecommons.org/licenses/by-nc/3.0/">Attribution-NonCommercial 3.0 License</a>。任何人可以进行转载、分享，但不可在未经允许的情况下用于商业用途；转载请注明出处。感谢配合！
+  </p>
+  {% endif %}
+
+  {% if page.duoshuo_comment %}
+    {% include duoshuo.html %}
+  {% endif %}
+</div>
