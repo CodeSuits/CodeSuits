@@ -2,7 +2,7 @@
 layout: post
 title: 【转】IntelliJ IDEA 控制台中文乱码
 categories: [Java]
-tags: [Java,IDEA,中文乱码]
+labels: [Java,IDEA,中文乱码]
 img: my_pics/20141111091623993.png
 ---
 

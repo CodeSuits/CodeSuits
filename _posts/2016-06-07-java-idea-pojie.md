@@ -2,7 +2,7 @@
 layout: post
 title: 【转】intellij idea 2016破解方法
 categories: [Java]
-tags: [Java,intellij,破解]
+labels: [Java,intellij,破解]
 img: my_pics/20141111091623993.png
 ---
  

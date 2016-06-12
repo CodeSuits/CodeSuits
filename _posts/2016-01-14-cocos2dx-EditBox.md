@@ -2,7 +2,7 @@
 layout: post
 title: 让输入框在Android上全屏显示
 categories: [Cocos]
-tags: [Cocos2d-x,Cocos2d-x2.0 ]
+labels: [Cocos2d-x,Cocos2d-x2.0 ]
 img: my_pics/device-2013-11-14-203153-1024x576.jpg
 ---
 

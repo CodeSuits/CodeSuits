@@ -2,7 +2,7 @@
 layout: post
 title: COCOS2DX 3.X 解决TABLEVIEW 、SCROLLVIEW上的MENU问题
 categories: [cocos2dx]
-tags: [cocos2dx,menu,TABLEVIEW,SCROLLVIEW]
+labels: [cocos2dx,menu,TABLEVIEW,SCROLLVIEW]
 img: my_pics/0P2232F7_0.jpg
 ---
 

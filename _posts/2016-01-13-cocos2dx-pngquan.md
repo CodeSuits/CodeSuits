@@ -2,7 +2,7 @@
 layout: post
 title: pngquant将 24/32-bit的PNG 图像 降色到 (8-bit) PNG图像压缩比率高达
 categories: [cocos2dx]
-tags: [cocos2dx,pngquant,图片压缩]
+labels: [cocos2dx,pngquant,图片压缩]
 img: my_pics/0P2232F7_0.png
 ---
 
