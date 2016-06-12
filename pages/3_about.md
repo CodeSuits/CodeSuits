@@ -18,15 +18,5 @@ sitemap:
 
 在我看来，编程不仅仅是我与生俱来的使命，也是我快乐的源泉。在业余时间，我喜欢研究一些跟技术相关的东西。同时，我也喜欢做一些安静的事，比如看书、看电影、听音乐、一个人散步以及旅行。
 
-如果你有任何问题，请给我发送邮件：[jerry.zry@outlook.com](mailto:jerry.zry@outlook.com)
+如果你有任何问题，请给我发送邮件：[{{ site.email }}](mailto:{{ site.email }})
 
-## 我在别处
-
-你可以在网络上的很多其他地方找到我，比如：
-
-- [GitHub](https://github.com/zry656565)
-- [LinkedIn](http://www.linkedin.com/profile/view?id=289040657)
-- [Segmentfault](http://segmentfault.com/u/jerryzou)
-- [Stackoverflow](http://stackoverflow.com/users/3152296/jerryddg)
-- [Douban](http://www.douban.com/people/jerry_zou/)
-- [Weibo](http://weibo.com/u/1943775181)
