@@ -1,57 +1,175 @@
 ---
 layout: default
-sidePart: true
+title: home
 ---
 
-<div class="home">
-  <ul class="posts">
-    {% for post in paginator.posts %}
-      {% if post.release %}
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <p class="post-date">Posted on {{ post.date | date: "%b %-d, %Y" }} ;
-            浏览量: <span data-hk-page="{{ post.url | prepend: site.url }}"> - </span>次
-        	{% for label in post.labels %}
-        	<a href="{{ site.baseurl }}/all-articles/?label={{ label }}"><span class="post-label">{{ label }}</span></a>
-        	{% endfor %}
-        </p>
-        <p class="post-description">{{ post.description }} <a class="post-link2" href="{{ post.url | prepend: site.baseurl }}">[继续阅读...]</a></p>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a class="parallelogram" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-      <div>&laquo; Prev</div>
-    </a>
-    {% else %}
-    <div class="parallelogram"><div>&laquo; Prev</div></div>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-      <div class="parallelogram current"><div>{{ page }}</div></div>
-      {% elsif page == 1 %}
-      <a class="parallelogram" href="/">
-        <div>{{ page }}</div>
-      </a>
-      {% else %}
-      <a class="parallelogram" href="/{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
-        <div>{{ page }}</div>
-      </a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-    <a class="parallelogram" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-        <div>Next &raquo;</div>
-    </a>
-    {% else %}
-    <div class="parallelogram"><div>Next &raquo;</div></div>
-    {% endif %}
-  </div>
-  {% endif %}
+<div id="main-wrap">
+	<div id="sitenews-wrap" class="container">
+		<div class="contextual bg-sitenews"> 
+			<i class="fa fa-volume-up" style=""></i>
+			<div id="news-scroll-zone">
+				<div class="news-scroll-list">
+					<li class="sitenews-list"><strong><span style="color: #ff0000;">积分充值必看！否则你就麻烦了！<span style="color: #000000;"><a href="https://www.0513c.com/technology-home-virtual-products-and-points-to-pay-attention-to.html" target="_blank">我点我点</a></span></span></strong></li>
+					<li class="sitenews-list"><strong>工单已经关闭！不再提供服务！</strong></li>
+				</div>
+				<div class="news-scroll-list">
+					<li class="sitenews-list"><strong><span style="color: #ff0000;">积分充值必看！否则你就麻烦了！<span style="color: #000000;"><a href="https://www.0513c.com/technology-home-virtual-products-and-points-to-pay-attention-to.html" target="_blank">我点我点</a></span></span></strong></li>
+					<li class="sitenews-list"><strong>工单已经关闭！不再提供服务！</strong></li>
+				</div>
+			</div> 
+			<span class="infobg-close" style="color:#aaa;"><i class="fa fa-close"></i></span>
+		</div>
+	</div>
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+			$('#flexslider').flexslider({
+				animation: "slide",
+				direction:"horizontal",
+				easing:"swing",
+				pauseOnHover:true,
+				slideshowSpeed: 5000,
+				animationDuration:600,
+				prevText: " < ",
+		        nextText: " > ",
+		        randomize:false
+			});
+		});
+	
+	</script>
+	<section id="home-featured" class="clr">
+		<div id="home-slider" class="container">
+			<div id="flexslider" class="flexslider flexslider-nar">
+				<ul class="slides" style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-720px, 0px, 0px);">
+					<li class="" style="width: 720px; float: left; display: block;"> 
+						<a class="slider-img" href="https://www.0513c.com/iobit-protected-folder.html" title="使用IObit Protected Folder创建私密文件夹/文件">
+							<img src="https://reg.0513c.com/uploads/2016/04/2016-04-2973.png" alt="使用IObit Protected Folder创建私密文件夹/文件" draggable="false">
+						</a>
+						<h2>
+							<a href="https://www.0513c.com/iobit-protected-folder.html" title="使用IObit Protected Folder创建私密文件夹/文件" target="_blank">使用IObit Protected Folder创建私密文件夹/文件</a>
+						</h2>
+					</li>
+					<li class="" style="width: 720px; float: left; display: block;"> 
+						<a class="slider-img" href="http://s.click.taobao.com/t?e=m%3D2%26s%3DzHANfP%2B9vh0cQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAr07TBkK902GJcmzK1DHynn%2B%2FaEHvgHcL9ZA21SWYhGCLF7DFo77ZgXdpBUlRSAJX%2Bdn1BbglxZYxUhy8exlzcpAFEHVckI7b3VyxRO0gvF4QxJtmCgOmCKdbqrA%2FrA2P2pBZE37nqLOxiXvDf8DaRs%3D" target="_blank" title="开年采购季，阿里云全线5折起！佣金15%">
+							<img draggable="false" src="https://reg.0513c.com/uploads/2016/03/560-260.jpg" alt="开年采购季，阿里云全线5折起！佣金15%">
+						</a>
+						<h2>
+							<a target="_blank" href="http://s.click.taobao.com/t?e=m%3D2%26s%3DzHANfP%2B9vh0cQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAr07TBkK902GJcmzK1DHynn%2B%2FaEHvgHcL9ZA21SWYhGCLF7DFo77ZgXdpBUlRSAJX%2Bdn1BbglxZYxUhy8exlzcpAFEHVckI7b3VyxRO0gvF4QxJtmCgOmCKdbqrA%2FrA2P2pBZE37nqLOxiXvDf8DaRs%3D" title="开年采购季，阿里云全线5折起！佣金15%">开年采购季，阿里云全线5折起！佣金15%</a>
+						</h2>
+					</li>
+					<li class="" style="width: 720px; float: left; display: block;"> 
+						<a class="slider-img" href="https://www.0513c.com/wordpress-using-ali-cloud-osscdn-to-achieve-attachment-ssl-access.html" title="WordPress使用阿里云OSS+CDN并实现附件ssl访问">
+							<img src="https://reg.0513c.com/uploads/2016/03/2016-03-2769.jpg" alt="WordPress使用阿里云OSS+CDN并实现附件ssl访问" draggable="false">
+						</a>
+						<h2>
+							<a href="https://www.0513c.com/wordpress-using-ali-cloud-osscdn-to-achieve-attachment-ssl-access.html" title="WordPress使用阿里云OSS+CDN并实现附件ssl访问" target="_blank">WordPress使用阿里云OSS+CDN并实现附件ssl访问</a>
+						</h2>
+					</li>
+				</ul>
+			</div>
+			<div id="flexslider-right"> 
+				<span class="slider-newest">
+					<div class="slider-newest-title"><h2>热门动态 <a href="https://www.0513c.com/articles.html" target="_blank" title="更多动态">更多</a> <i class="fa fa-sitemap"></i></h2></div>
+					<div class="slider-newest-articles">
+						<article class="clr"> 
+							<a href="https://www.0513c.com/oneinstack.html" title="Oneinstack环境安装，更优的网站环境一键安装包" class="fancyimg">
+								<div class="thumb-img"> 
+									<img class="box-hide box-show" src="https://www.0513c.com/uploads/2016/01/install_oneinstack.png" data-original="https://www.0513c.com/uploads/2016/01/install_oneinstack.png" alt="Oneinstack环境安装，更优的网站环境一键安装包" style="display: block;"> <span></span>
+								</div> 
+							</a>
+							<h3>
+								<a href="https://www.0513c.com/oneinstack.html" title="Oneinstack环境安装，更优的网站环境一键安装包" target="_blank">Oneinstack环境安装，更优的网站环境一键安装包</a>
+							</h3> 
+							<span class="date">2016-01-12</span>
+						</article>
+						<article class="clr"> 	
+							<a href="https://www.0513c.com/wdcp-mysql-error.html" title="wdcp更换数据库优化方案后提示无法连接mysql的解决办法" class="fancyimg">
+								<div class="thumb-img"> 
+									<img class="box-hide box-show" src="https://www.0513c.com/uploads/2015/10/89G58PICVIu_1024-375x250.png" data-original="https://www.0513c.com/uploads/2015/10/89G58PICVIu_1024-375x250.png" alt="wdcp更换数据库优化方案后提示无法连接mysql的解决办法" style="display: block;"> 
+									<span></span>
+								</div> 
+							</a>
+							<h3>
+								<a href="https://www.0513c.com/wdcp-mysql-error.html" title="wdcp更换数据库优化方案后提示无法连接mysql的解决办法" target="_blank">wdcp更换数据库优化方案后提示无法连接mysql的解决办法</a>
+							</h3> 
+							<span class="date">2015-10-09</span>
+						</article>
+						<article class="clr"> 
+							<a href="https://www.0513c.com/dux.html" title="大前端付费主题dux无错版下载" class="fancyimg">
+								<div class="thumb-img"> 
+									<img class="box-hide box-show" src="https://reg.0513c.com/uploads/2015/02/focus-dux.png" data-original="https://reg.0513c.com/uploads/2015/02/focus-dux.png" alt="大前端付费主题dux无错版下载" style="display: block;"> 
+									<span></span>
+								</div> 
+							</a>
+							<h3>
+								<a href="https://www.0513c.com/dux.html" title="大前端付费主题dux无错版下载" target="_blank">大前端付费主题dux无错版下载</a>
+							</h3> 
+							<span class="date">2015-02-09</span>
+						</article>
+					</div> 
+				</span>
+			</div>
+		</div>
+	</section>
+	<!--正文开始-->
+	<div class="container two-col-container">
+		<div id="main-wrap-left">
+			<!--
+			<section class="stickys clr">
+				<h2 class="home-heading clr"> 
+					<span class="heading-text-blog"> 置顶推荐 </span>
+				</h2>
+				<div class="stickys-container stickys-two-col stickys-latest-list clr">
+					<article class="clr col-small">
+						<div class="inner"> 
+							<a href="https://www.0513c.com/easeus-data-recovery-wizard-professional-10.html" title="易我数据恢复工具EaseUS Data Recovery Wizard Professional 10（附序列号）" class="fancyimg home-blog-entry-thumb">
+								<div class="thumb-img"> 
+									<img src="https://reg.0513c.com/uploads/2016/04/2016-04-2269.png" _w="100" _h="66.6" alt="易我数据恢复工具EaseUS Data Recovery Wizard Professional 10（附序列号）"> 
+									<span><i class="fa fa-star"></i></span>
+								</div> 
+							</a>
+							<h3>
+								<a href="https://www.0513c.com/easeus-data-recovery-wizard-professional-10.html" title="易我数据恢复工具EaseUS Data Recovery Wizard Professional 10（附序列号）" target="_blank">易我数据恢复工具EaseUS Data Recovery Wizard Professional 10（附序列号）</a>
+							</h3>
+							<p> 易我数据恢复软件已经持续经营了12年，在数据恢复技术上积累了非常丰富的经验，即使在欧美，也屡获奖项。因此，在数据恢复工具里，应该为众多用户的首选之作。 也有网友经常持有一个观点，数据恢复的事故离他很远，装这样的软件压根没必要。即使数据丢失了，再等那个时候来到再安装也不迟。 但以小编的经验，数据丢失是突发的事情，离你很远固然很好，但当真的来了，那你就杯具了；而且没当真的发生数据丢失的事情，人就会着急发了疯似的到处找人要数据恢复软件，这种人我见多了，你别跟我说没有。 易我数据恢复向导（EaseUS Data Recovery Wizard Professional 10）是一款非常优秀的数据恢复软</p>
+						</div>
+						<div class="meta"> <span class="date">3周前 (04-22)</span> <span class="views">浏览: 181</span> <span class="comments">评论关闭</span></div>
+					</article>
+				</div>
+			</section>
+			-->
+			<div class="bloglist-container clr">
+				<h2 class="home-heading clr"> 
+					<span class="heading-text-blog"> 最新文章 </span>
+				</h2>
+				{% for post in paginator.posts %}
+				<article class="home-blog-entry col span_1 clr"> 
+					<a href="{{ post.url }}" title="{{ post.title }}" class="fancyimg home-blog-entry-thumb">
+						<div class="thumb-img"> 
+							<img class="box-hide box-show" width="300" height="200" src="{{ site.url }}/{{ post.img}}" alt="{{ post.title }}" style="display: block;"> 
+							<span><i class="fa fa-expand"></i></span>
+						</div> 
+					</a>
+					<div class="home-blog-entry-text clr">
+						<h3> <a href="{{ post.url }}" title="{{ post.title }}" target="_blank">{{ post.title }}</a></h3>
+						<div class="meta"> 
+							<span class="postlist-meta-cat"><i class="fa fa-bookmark"></i><a href="https://www.0513c.com/share" rel="category tag">{{ post.categories }}</a></span> 
+							<span class="postlist-meta-time"><i class="fa fa-calendar"></i>{{ post.date | date: "%Y/%m/%d" }}</span> 
+							<span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: 32</span> 
+							<span class="postlist-meta-comments"></span>
+						</div>
+						<p> {{ post.content | strip_html | strip_newlines | truncate:170 }}</p>
+					</div>
+					<div class="clear"></div>
+				</article>
+				{% endfor %}
+            	{% include home-pagination.html %}
+			</div>
+		</div>
+		<script type="text/javascript">$('.site_loading').animate({'width':'55%'},50);  //第二个节点</script>
+		{% include side.html %}
+		<script type="text/javascript">$('.site_loading').animate({'width':'78%'},50);  //第三个节点</script>
+	</div>
+	<!--正文结束-->
+	<div class="clear"></div>
 </div>
