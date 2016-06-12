@@ -1,76 +1,45 @@
-name: 技术宅
+# Site settings
+title: 技术宅
 sub_name: 专注分享，专注技术！
-description: 技术宅，专注分享，专注技术！邵志伟个人博客。分享互联网科技新闻轶事，分享生活小常识，各种数码使用小技巧！
+# description: 技术宅，专注分享，专注技术！邵志伟个人博客。分享互联网科技新闻轶事，分享生活小常识，各种数码使用小技巧！
 keywords : 邵志伟，邵志伟是谁，邵志伟博客，技术宅，分享，技术，教程
+owner: 邹润阳
+email: jerry.zry@outlook.com
+description: >
+  在我看来，编程不仅仅是我与生俱来的使命，也是我快乐的源泉。在业余时间，我喜欢研究一些跟技术相关的东西。同时，我也喜欢做一些安静的事，比如看书、看电影、听音乐、一个人散步以及旅行。
+baseurl: ""
 url: http://www.emsuits.com
-paginate: 10 # pagination based on number of posts
-# 目录结构
-#source:      .
-#destination: ./_site
-#plugins:     ./_plugins
-#layouts:     ./_layouts
-#data_source: ./_data
-#collections: null
+#static images
+local_url: "/assets/images"
+#github source
+#static_url: "/assets/images"
+#upyun source
+static_url: "http://jerryblog-image.b0.upaiyun.com/blog"
+#qiniu source
+qiniu_static_url: "http://jerryblog.qiniudn.com"
 
-# 阅读处理
-#safe:         false
-include:      ["_static"]
-exclude:      ["README.md"]
-#keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "md"
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+paginate: 7
+paginate_path: ":num/"
+exclude: [node_modules, .tmp, Gruntfile.js, _config, package.json, articles.raw]
 
-# 内容过滤
-#show_drafts: null
-#limit_posts: 0
-#future:      true
-#unpublished: false
-
-# 插件
-#whitelist: []
-gems:
-  - jekyll-coffeescript
-  - jekyll-paginate
-
-# 转换
-markdown:    kramdown
-highlighter: rouge
-lsi:         false
-# excerpt_separator: "=========="
-
-# 服务器选项
-#detach:  false
-#port:    4000
-#host:    127.0.0.1
-#baseurl: "" # does not include hostname
-
-# 输出
-permalink:     "/:year-:month-:day-:title"
-paginate_path: "/page/:num"
-#timezone:      null
-
-#quiet:    false
-#defaults: []
-
-# Markdown 处理器
-kramdown:
-  #auto_ids:       true
-  #footnote_nr:    1
-  #entity_output:  as_char
-  #toc_levels:     1..6
-  #smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  #enable_coderay: false
-  input: GFM
-  #hard_wrap: false
-
-  #coderay:
-    #coderay_wrap:              div
-    #coderay_line_numbers:      inline
-    #coderay_line_number_start: 1
-    #coderay_tab_width:         4
-    #coderay_bold_every:        10
-    #coderay_css:               style  
-
-#sass:
-#    sass_dir: resources/css
-#    style: compressed
+# default Front matter
+defaults:
+  -
+    scope:
+      path: pages
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      copyright: true
+      duoshuo_comment: true
+      release: true
