@@ -21,7 +21,6 @@ markdown: kramdown
 permalink: pretty
 highlighter: pygments
 paginate: 7
-paginate_path: ":num/"
 exclude: [node_modules, .tmp, Gruntfile.js, _config, package.json, articles.raw]
 
 # 输出
