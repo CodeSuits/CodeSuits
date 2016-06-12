@@ -3,7 +3,7 @@ layout: post
 title: 美国队长3迅雷免费下载 
 categories: [资源分享]
 labels: [Captain America 3,复仇者联盟,美国队长3]
-img: my_pics/captain-america-3/2016-05-143.jpg
+key: 10007
 ---
 
 《美国队长3》是由美国漫威影业公司出品的科幻动作片，由安东尼·罗素、乔·罗素兄弟联合执导，

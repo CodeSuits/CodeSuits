@@ -3,7 +3,7 @@ layout: post
 title: WordPress美化：超炫CSS3旋转圆圈加载中蓝/黑特效
 categories: [Java]
 labels: [Java,JVM,调优]
-img: my_pics/2016-05-0441.png
+key: 10008
 ---
 
 在许多WordPress博客都看到了这个特效，找了许久终于找到了，微饭直接Copy过来了，有蓝色和黑色两种颜色，可以根据自己主题选择。

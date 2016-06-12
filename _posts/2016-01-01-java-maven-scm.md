@@ -1,9 +1,9 @@
 ---
 layout: post
 title: maven的scm插件介绍及使用示例
+key: 10003
 categories: [Java]
-tags: [Java,maven,scm]
-img: my_pics/emsuits.com.jpg
+labels: [Java,maven,scm]
 ---
 
 ![](my_pics/emsuits.com.jpg)

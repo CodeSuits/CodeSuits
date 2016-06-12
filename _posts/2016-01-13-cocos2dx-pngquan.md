@@ -2,8 +2,8 @@
 layout: post
 title: pngquant将 24/32-bit的PNG 图像 降色到 (8-bit) PNG图像压缩比率高达
 categories: [cocos2dx]
+key: 10005
 labels: [cocos2dx,pngquant,图片压缩]
-img: my_pics/0P2232F7_0.png
 ---
 
 今天回家的路上 群里有人说了个 图片压缩 的工具 在此记录下 以备以后查看。。。pngquant。。
