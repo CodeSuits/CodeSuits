@@ -14,7 +14,7 @@ img: my_pics/2016-05-0441.png
 
 ## 蓝色版
 
-{% highlight lua %}
+{% highlight css %}
 /* 超炫CSS3旋转圆圈加载中特效 蓝色版 */
 /* 微Fan'天空 www.weeiy.com*/
 #circle { 
