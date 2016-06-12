@@ -1,0 +1,18 @@
+{% if paginator.total_pages > 1 %}
+<!-- 分页代码 -->
+<ol class="page-navigator">
+    {% if paginator.previous_page %}
+    <li class="prev"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+    {% endif %}
+    {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class="current"><a href="{{ site.url }}/page/{{ page }}">{{ page }}</a></li>
+        {% else %}
+          <li><a href="{{ site.url }}/page/{{ page }}">{{ page }}</a></li>
+        {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+        <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+    {% endif %}
+</ol>
+{% endif %}
