@@ -14,7 +14,7 @@ img: my_pics/0P2232F7_0.png
 
 第一图是原图 39K  第二张图是11k加载到手机内存是这样的的
 
-{% highlight bash linenos %}
+{% highlight lua %}
 	// add "HelloWorld" splash screen" 这个是原图 39K
     CCSprite* pSprite1 = CCSprite::create("pencil.png");
     pSprite1->setPosition(ccp(visibleSize.width/2 -100, visibleSize.height/2 ));

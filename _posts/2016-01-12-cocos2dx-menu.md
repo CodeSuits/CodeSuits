@@ -20,7 +20,7 @@ img: my_pics/0P2232F7_0.jpg
 
 直接上代码
 
-{% highlight bash linenos %}
+{% highlight lua %}
 void Menu::setTouchlimit(cocos2d::Node *node)
 {
     m_szTouchLimitNode=node;
@@ -47,7 +47,7 @@ bool Menu::isInTouchLimit(Touch* touch)
 
 > 在onTouchBegan
 
-{% highlight bash linenos %}
+{% highlight lua %}
 bool Menu::onTouchBegan(Touch* touch, Event* event)
 {
     if (_state != Menu::State::WAITING || ! _visible || !_enabled)

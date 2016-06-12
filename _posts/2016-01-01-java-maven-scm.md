@@ -59,7 +59,7 @@ update - 从服务器上获取最新的版本
 配置及使用
 
 其它的SCM都有自己独特的命令来操作提交变更、或从服务器上获取最新的源吗，如SVN及CVS的操作就很不相同，使用Maven担任的SCM机制，就可以使得SCM的操作变得统一，以下是一个SVN配置示例，将以下的示例配置到pom.xml文件中
-{% highlight bash linenos %}
+{% highlight lua %}
 <project>
   ...
   <packaging>jar</packaging>
@@ -89,7 +89,7 @@ SCM支持的连接类型
 SCM支持两种连接类型：connection 及 developerConnection。 
 
 以下是一个连接类型为connection的配置示例：
-{% highlight bash linenos %}
+{% highlight lua %}
 <project>
   ...
   <build>
@@ -111,7 +111,7 @@ SCM支持两种连接类型：connection 及 developerConnection。
 </project>
 {% endhighlight %}
 以下是一个连接类型为developerConnection的配置示例：
-{% highlight bash linenos %}
+{% highlight lua %}
 <project>
   ...
   <build>
