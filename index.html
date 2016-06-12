@@ -9,7 +9,7 @@ sidePart: true
       {% if post.release %}
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <p class="post-date">Posted on {{ post.date | date: date: "%Y-%m-%d" }} ;
+        <p class="post-date">Posted on {{ post.date | date: "%Y-%m-%d" }} ;
             浏览量: <span data-hk-page="{{ post.url | prepend: site.url }}"> - </span>次
         </p>
         <p class="post-description">{{ post.content | strip_html | strip_newlines | truncate:240 }} <a class="post-link2" href="{{ post.url | prepend: site.baseurl }}">    [继续阅读...]</a></p>
