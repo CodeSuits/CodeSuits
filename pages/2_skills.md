@@ -6,10 +6,9 @@ nav: true
 ---
 
 {% assign freestyle = "" %}
-
 {% for post in site.posts %}
   {% for label in post.labels %}
-  	{{freestyle = label}}
+  	{{label}}
   {% endfor %}
 {% endfor %}
 
