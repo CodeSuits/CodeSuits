@@ -10,8 +10,7 @@ nav: true
     data = JSON.parse(dataStr);
     curTag = $.query.get("cat");
     archieves = data[curTag];
-    echo archieves;
-    echo dataStr;
+    document.write(dataStr);
 </script>
 
 {% assign freestyle = "" %}
