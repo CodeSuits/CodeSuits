@@ -244,6 +244,9 @@ hr {
   color: #555;
   word-wrap: break-word;
 }
+.post-link2 {
+  display: block;
+}
 /*=================
   Pagination
 ===================*/
