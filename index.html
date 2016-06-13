@@ -12,7 +12,8 @@ sidePart: true
         <p class="post-date">Posted on {{ post.date | date: "%Y-%m-%d" }} ;
             浏览量: <span data-hk-page="{{ post.url | prepend: site.url }}"> - </span>次
         </p>
-        <p class="post-description">{{ post.content | strip_html | strip_newlines | truncate:240 }} <a class="post-link2" href="{{ post.url | prepend: site.baseurl }}">    [继续阅读...]</a></p>
+        <p class="post-description">{{ post.content | strip_html | strip_newlines | truncate:240 }} </p>
+        <a class="post-link2" href="{{ post.url | prepend: site.baseurl }}">阅读全文"{{ post.title }}"»</a>
         {% for label in post.labels %}
           <a href="{{ site.baseurl }}/all-articles/?label={{ label }}"><span class="post-label">{{ label }}</span></a>
         {% endfor %}
