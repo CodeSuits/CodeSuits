@@ -8,9 +8,9 @@ labels: [css,js]
 
 {% highlight html %}
 <div class="div-img">
-<span>
-<img src="http://www.dhresource.com/200x200/f2/albu/g4/M00/2C/DF/rBVaEFcuwXWAG8miAAHCR9HqTwE205.jpg">
-</span>
+    <span>
+        <img src="http://www.dhresource.com/200x200/f2/albu/g4/M00/2C/DF/rBVaEFcuwXWAG8miAAHCR9HqTwE205.jpg">
+    </span>
 </div>
 {% endhighlight %}
 
@@ -26,7 +26,6 @@ css 文件
     vertical-align: middle;
     width: 120px;
 }
-
 
 .center .might li .div-img span {
     display: block;
