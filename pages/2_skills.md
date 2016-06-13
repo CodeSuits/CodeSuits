@@ -11,6 +11,7 @@ nav: true
     curTag = $.query.get("cat");
     archieves = data[curTag];
     echo archieves;
+    echo dataStr;
 </script>
 
 {% assign freestyle = "" %}
