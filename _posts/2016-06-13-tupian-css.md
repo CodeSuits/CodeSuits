@@ -1,10 +1,10 @@
 ---
-title: 图片自适应
+title: 图片自适应 兼容到ie7
 key: 10014
 labels: [css,js]
 ---
 
-图片自适应
+图片自适应 
 
 {% highlight html %}
 <div class="div-img">
