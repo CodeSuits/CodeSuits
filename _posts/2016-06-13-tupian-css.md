@@ -17,25 +17,33 @@ labels: [css,js]
 css 文件
 
 {% highlight css %}
-.center .might li .div-img {
-    display: table-cell;
-    height: 120px;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-    width: 120px;
+
+.other-items li .div-img{
+    vertical-align:middle; 
+    display:table-cell; 
+    position:relative; 
+    text-align:center; 
+    width:200px; 
+    height:120px;
+    text-align:center;
+    overflow:hidden;
+}
+.other-items li .div-img a{ 
+    *position:absolute;
+    *top:50%;
+    *left:50%;
+    width:200px;
+    display:block;
+    margin:0 auto;
 }
 
-.center .might li .div-img span {
-    display: block;
-    margin: 0 auto;
-    width: 120px;
-}
-.center .might li .div-img span img {
-    display: block;
-    margin: 0 auto;
-    max-height: 120px;
-    max-width: 120px;
+.other-items li .div-img a img{ 
+    max-height:120px; 
+    max-width:200px;
+    *position:relative;
+    *top:-50%;
+    *left:-50%;
+    display:block;
+    margin:0 auto;
 }
 {% endhighlight %}
