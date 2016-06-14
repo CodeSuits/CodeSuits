@@ -28,5 +28,21 @@ exclude: [node_modules, .tmp, Gruntfile.js, _config, package.json, articles.raw]
 permalink:     "/:year-:month-:day-:title.html"
 paginate_path: "/page/:num"
 
-
+# default Front matter
+defaults:
+  -
+    scope:
+      path: pages
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      copyright: true
+      duoshuo_comment: true
+      release: true
 
