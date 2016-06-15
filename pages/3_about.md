@@ -1,6 +1,6 @@
 ---
 title: 关于我
-permalink: /about/
+permalink: /about.html
 nav: true
 key: 10016
 duoshuo_comment: true

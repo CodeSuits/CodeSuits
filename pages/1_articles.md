@@ -1,6 +1,6 @@
 ---
 title: 所有文章
-permalink: /all-articles/
+permalink: /articles.html
 layout: default
 nav: true
 ---
@@ -41,4 +41,7 @@ var $J = {
 
 <div id="main"></div>
 
-<!-- concat React JSX -->
+<script src="/assets/js/lib/react/react.js"></script>
+<script src="/assets/js/lib/react/JSXTransformer.js"></script>
+<script type="text/jsx" src="/pages/articles.js"></script>
+
