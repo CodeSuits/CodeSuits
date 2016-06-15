@@ -57,22 +57,22 @@
         },
         render: function() {
             var list = this,
-                selected = this.props.selected,
-                createLabel = function(label, i) {
-                    var classStr = 'post-label',
-                        count = label.value;
-                    if (label.name === selected) {
-                        classStr += ' select';
-                    }
-                    if (count > 50000 || count === 1) {
-                        count = '';
-                    }
-                    return (
-                        <span onClick={list.handleClick.bind(list, i, list.props.app)} className={classStr} key={i}>
-                            {label.name} <sup>{count}</sup>
-                        </span>
-                    );
-                };
+            selected = this.props.selected,
+            createLabel = function(label, i) {
+                var classStr = 'post-label',
+                    count = label.value;
+                if (label.name === selected) {
+                    classStr += ' select';
+                }
+                if (count > 50000 || count === 1) {
+                    count = '';
+                }
+                return (
+                    <span onClick={list.handleClick.bind(list, i, list.props.app)} className={classStr} key={i}>
+                        {label.name} <sup>{count}</sup>
+                    </span>
+                );
+            };
 
             return (
                 <section className="label-section">
