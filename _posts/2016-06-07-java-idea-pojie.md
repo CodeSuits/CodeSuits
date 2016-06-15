@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【转】intellij idea 2016破解方法
-categories: [Java]
+categories: [技术-Java]
 labels: [Java,intellij,破解]
 key: 10013
 ---

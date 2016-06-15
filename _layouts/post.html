@@ -9,7 +9,7 @@ layout: default
         浏览量：<span data-hk-page="current"> - </span>次<span class="pause"> | </span>
         {% if page.labels %}
             {% for label in page.labels %}
-                <a class="label" href="{{ site.baseurl }}/all-articles/?label={{ label }}">{{ label }}</a>
+                <a class="label" href="{{ site.baseurl }}/articles.html/?label={{ label }}">{{ label }}</a>
             {% endfor %}
         {% endif %}
     </p>

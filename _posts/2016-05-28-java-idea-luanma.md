@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【转】IntelliJ IDEA 控制台中文乱码
-categories: [Java]
+categories: [技术-Java]
 labels: [Java,IDEA,中文乱码]
 key: 10011
 ---

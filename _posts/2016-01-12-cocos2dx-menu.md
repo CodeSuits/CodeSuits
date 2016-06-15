@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COCOS2DX 3.X 解决TABLEVIEW 、SCROLLVIEW上的MENU问题
-categories: [Cocos]
+categories: [技术-Cocos]
 key: 10004
 labels: [cocos2dx,menu,TABLEVIEW,SCROLLVIEW]
 ---

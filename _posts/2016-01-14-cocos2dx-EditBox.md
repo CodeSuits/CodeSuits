@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 让输入框在Android上全屏显示
-categories: [Cocos]
+categories: [技术-Cocos]
 labels: [Cocos2d-x,Cocos2d-x2.0]
 key: 10006
 ---

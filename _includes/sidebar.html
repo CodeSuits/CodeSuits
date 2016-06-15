@@ -21,7 +21,35 @@
     <a href="http://www.linkedin.com/profile/view?id=289040657"><img class="icon" src="{{ site.static_url }}/linkedin_icon.png" title="Linkedin" /></a>
 </div>
 <!-- end -->
+<script type="text/javascript">
+// prepare data from jekyll
+var $J = {
+  baseUrl: "{{ site.baseurl }}/categories.html/?label=",
+  staticUrl: "{{ site.static_url }}",
+  categories: [
+    {% for post in site.posts %}
+      {% if post.release %}
+        {% for category in post.categories %}
+          "{{ category }}",
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  ]
+};
+</script>
 
+<!-- other sites -->
+<div class="other-sites">
+    <h4>文章分类</h4>
+    <hr/>
+    <div id="module-content" class="module-content">
+                        
+    </div>
+</div>
+<script src="/assets/js/lib/react/react.js"></script>
+<script src="/assets/js/lib/react/JSXTransformer.js"></script>
+<script type="text/jsx" src="/pages/sites_cat.js"></script>
+<!-- end -->
 <div>
     <h4 id="latest-comments">最新评论</h4>
     <!-- 多说最新评论 start -->

@@ -2,7 +2,7 @@
 layout: post
 title: maven的scm插件介绍及使用示例
 key: 10003
-categories: [Java]
+categories: [技术-Java]
 labels: [Java,maven,scm]
 ---
 

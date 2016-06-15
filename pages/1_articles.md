@@ -8,7 +8,7 @@ nav: true
 <script type="text/javascript">
 // prepare data from jekyll
 var $J = {
-  baseUrl: "{{ site.baseurl }}/all-articles/?label=",
+  baseUrl: "{{ site.baseurl }}/articles.html/?label=",
   staticUrl: "{{ site.static_url }}",
   labels: [
     "显示全部",

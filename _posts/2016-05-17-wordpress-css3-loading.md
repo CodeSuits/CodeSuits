@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WordPress美化：超炫CSS3旋转圆圈加载中蓝/黑特效
-categories: [Java]
+categories: [技术-Java]
 labels: [Java,JVM,调优]
 key: 10008
 ---

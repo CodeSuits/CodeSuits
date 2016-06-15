@@ -2,6 +2,7 @@
 layout: post
 title: 图片自适应 兼容到ie7
 key: 10014
+categories: [技术-前端]
 labels: [css,js]
 ---
 
