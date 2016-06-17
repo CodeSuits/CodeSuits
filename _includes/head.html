@@ -1,16 +1,10 @@
 <head>
     <meta charset="utf-8">
-	<meta name="baidu-site-verification" content="5lqM8cPDKY" />
-	<meta name="360-site-verification" content="16e1e0646d5297fd732c3b0fa76f0122" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>
-        {% if page.title %}
-            {{ page.title }} | {{ site.title }}
-        {% else %}
-            {{ site.title }}
-        {% endif %}</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{% if page.description %}{{ page.description }} {% else %} {{ site.description }} {% endif %}">
+    <meta name="keywords" content="狂奔的蜗牛,蜗牛,技术,Java,C++,Redis,mysql,SpringMVC,架构,高并发,数据库,缓存,服务器,程序,日记,博客">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="{{ "/feed.xml" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link href="{{ site.url }}/favicon.ico" rel="shortcut icon" type="image/x-icon" />

@@ -1,6 +1,7 @@
 ---
 title: 搞清大数端小数端
 key: 10001
+categories: [技术]
 labels: [系统底层]
 ---
 

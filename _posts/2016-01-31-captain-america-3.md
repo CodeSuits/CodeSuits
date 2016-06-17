@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 美国队长3迅雷免费下载 
-categories: [杂记-其他]
+categories: [杂记]
 labels: [Captain America 3,复仇者联盟,美国队长3]
 key: 10007
 ---

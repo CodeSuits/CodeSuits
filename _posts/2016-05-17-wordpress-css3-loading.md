@@ -12,7 +12,7 @@ key: 10008
 
 ## 蓝色版
 
-{% highlight css %}
+{% highlight html %}
 /* 超炫CSS3旋转圆圈加载中特效 蓝色版 */
 /* 微Fan'天空 www.weeiy.com*/
 #circle { 
@@ -94,7 +94,7 @@ key: 10008
 
 ## 黑色版
 
-{% highlight css %}
+{% highlight html %}
 #circle {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgba(10,10,10,0.9);   

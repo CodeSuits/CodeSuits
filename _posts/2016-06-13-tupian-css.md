@@ -2,7 +2,7 @@
 layout: post
 title: 图片自适应 兼容到ie7
 key: 10014
-categories: [技术-前端]
+categories: [技术-HTML]
 labels: [css,js]
 ---
 
@@ -18,7 +18,7 @@ labels: [css,js]
 
 css 文件
 
-{% highlight css %}
+{% highlight html %}
 
 .other-items li .div-img{
     vertical-align:middle; 
