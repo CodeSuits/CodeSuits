@@ -49,14 +49,14 @@ key: 10007
 
 ## 影视剧照
 
-![](my_pics/captain-america-3/2016-05-143.jpg)
-![](my_pics/captain-america-3/2016-05-1442.jpg)
-![](my_pics/captain-america-3/2016-05-1443.jpg)
-![](my_pics/captain-america-3/2016-05-1450.jpg)
-![](my_pics/captain-america-3/2016-05-1459.jpg)
-![](my_pics/captain-america-3/2016-05-1470.jpg)
-![](my_pics/captain-america-3/2016-05-1479.jpg)
-![](my_pics/captain-america-3/2016-05-1482.jpg)
-![](my_pics/captain-america-3/2016-05-1497.jpg)
-![](my_pics/captain-america-3/2016-05-1498.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-143.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-1442.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-1443.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-1450.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-1459.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-1470.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-1479.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-1482.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-1497.jpg)
+![]({{ site.static_url }}/my_pics/captain-america-3/2016-05-1498.jpg)
 

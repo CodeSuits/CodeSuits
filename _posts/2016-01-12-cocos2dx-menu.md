@@ -6,7 +6,7 @@ key: 10004
 labels: [cocos2dx,menu,TABLEVIEW,SCROLLVIEW]
 ---
 
-![](my_pics/0P2232F7_0.jpg)
+![]({{ site.static_url }}/my_pics/0P2232F7_0.jpg)
 
 问题有两个（我主要解决的就这两个）最近在做霸气三国的项目图片都是从网上拔下来的 以前也有这样的情况 只是开始都是学习怎么用  工作两年了 没有真正的钻研过什么都是在如何用上花费时间
 

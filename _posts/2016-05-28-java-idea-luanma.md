@@ -62,7 +62,7 @@ PS：从12.1版本开始默认添加了这个参数
 
 不要以为问题解决了，实际上只完成了一半，因为是运行Web Server时出现的乱码，所以Web Server的编码要和IDEA保持一致：
 
-![](my_pics/20141111091623993.png)
+![]({{ site.static_url }}/my_pics/20141111091623993.png)
 
 IDEA中设置Web Server的虚拟机编码
 

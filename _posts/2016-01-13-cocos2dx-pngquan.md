@@ -10,7 +10,7 @@ labels: [cocos2dx,pngquant,图片压缩]
 
 尝试了下 果然不错 也试了下 在cocos2d-x2.2.3中 同样的两张图片
 
-![](my_pics/0P2232F7_0.png)
+![]({{ site.static_url }}/my_pics/0P2232F7_0.png)
 
 第一图是原图 39K  第二张图是11k加载到手机内存是这样的的
 

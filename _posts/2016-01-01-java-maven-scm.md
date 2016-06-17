@@ -6,7 +6,7 @@ categories: [技术-Java]
 labels: [Java,maven,scm]
 ---
 
-![](my_pics/emsuits.com.jpg)
+![]({{ site.static_url }}/my_pics/emsuits.com.jpg)
 
 Maven中为我们集成了软件配置管理的（SCM：Software Configuration
 
