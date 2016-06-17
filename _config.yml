@@ -23,6 +23,10 @@ exclude: [node_modules, .tmp, Gruntfile.js, _config, package.json, articles.raw]
 permalink:     "/:year-:month-:day-:title.html"
 paginate_path: "/page/:num"
 
+sass:
+    sass_dir: assets/_sass
+    style: :compressed
+    
 # default Front matter
 defaults:
   -
